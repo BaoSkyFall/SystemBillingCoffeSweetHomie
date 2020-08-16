@@ -15,93 +15,39 @@ namespace CafeSweetHomie
 {
     public partial class Form1 : Form
     {
-        private double bacsiu;
-        private int cafeSuaTuoi;
-
+       
         public Form1()
         {
             InitializeComponent();
             StartPosition = FormStartPosition.CenterScreen;
-
+            this.SetStyle(ControlStyles.ResizeRedraw, true);
             //test
         }
-
-        private void button3_Click(object sender, EventArgs e)
-        { //btnReset
-            txtDenDa.Text = "0";
-            txtSuaDa.Text = "0";
-            txtBacSiu.Text = "0";
-            txtCafeSuaTuoi.Text = "0";
-
-
-
-            lblCakeCost.Text = "0";
-            lblDrinkCost.Text = "0";
-            lblPhiDichVu.Text = "0";
-            lblKhuyenMai.Text = "0";
-            lblChietKhau.Text = "0";
-            lblTotal.Text = "0";
-
-            chkDenDa.Checked = false;
-            chkSuaDa.Checked = false;
-            chkBacSiu.Checked = false;
-            chkCafeSuaTuoi.Checked = false;
-
-
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
+        private const int cGrip = 16;
+        private const int cCaption = 32;
+        private bool isPrint = false;
+        protected override void WndProc(ref Message m)
         {
-            //btnReceipt
-            rtfReceipt.Clear();
-
-            // rtfReceipt.AppendText(Environment.NewLine);
-            rtfReceipt.AppendText("--------------------------------" + Environment.NewLine);
-            rtfReceipt.AppendText("\t\t" + "Cafe Sweet Dream" + Environment.NewLine);
-            rtfReceipt.AppendText("--------------------------------" + Environment.NewLine);
-            //rtfReceipt.AppendText("Tên\tSố lượng\tĐơn giá\tTổng cộng" + Environment.NewLine);
-            rtfReceipt.AppendText("Tên\t\t\t\t");
-            rtfReceipt.AppendText("Số lượng\t\t");
-            rtfReceipt.AppendText("Đơn giá\t\t");
-            rtfReceipt.AppendText("Tổng cộng" + Environment.NewLine);
-
-
-            if (txtDenDa.Text != "0")
+            if(m.Msg == 0x84)
             {
-                rtfReceipt.AppendText("Cafe Đen Đá \t\t5\t\t25.000\t\t125.000" + Environment.NewLine);
-
+                Point pos = new Point(m.LParam.ToInt32());
+                pos = this.PointToClient(pos);
+                if(pos.Y < cCaption)
+                {
+                    m.Result = (IntPtr)2;
+                    return;
+                }
+                if(pos.X >= this.ClientSize.Width - cGrip && pos.Y>= this.ClientSize.Height - cGrip)
+                {
+                    m.Result = (IntPtr)17;
+                    return;
+                }
             }
-            if (txtSuaDa.Text != "0")
-            {
-                rtfReceipt.AppendText("Cafe Sữa Đá \t\t\t\t" + txtSuaDa.Text + Environment.NewLine);
-
-            }
-            if (txtBacSiu.Text != "0")
-            {
-                rtfReceipt.AppendText("Bạc Sỉu \t\t\t\t" + txtBacSiu.Text + Environment.NewLine);
-
-            }
-            if (txtCafeSuaTuoi.Text != "0")
-            {
-                rtfReceipt.AppendText("Cafe Sữa Tươi \t\t\t" + txtCafeSuaTuoi.Text + Environment.NewLine);
-
-            }
-
-
-
-
-
-            rtfReceipt.AppendText("-------------------------------------------------------------" + Environment.NewLine);
-            rtfReceipt.AppendText("Phí Dịch Vụ \t\t\t" + lblPhiDichVu.Text + Environment.NewLine);
-            rtfReceipt.AppendText("-------------------------------------------------------------" + Environment.NewLine);
-            rtfReceipt.AppendText("Khuyến Mãi \t\t\t\t" + lblKhuyenMai.Text + Environment.NewLine);
-            rtfReceipt.AppendText("Tổng Cộng \t\t\t" + lblChietKhau.Text + Environment.NewLine);
-            rtfReceipt.AppendText("Tổng Cộng \t\t\t" + lblTotal.Text + Environment.NewLine);
-            rtfReceipt.AppendText("-------------------------------------------------------------" + Environment.NewLine);
-            rtfReceipt.AppendText(lblTimer.Text + "\t" + lblDate.Text);
-
+            base.WndProc(ref m);
         }
+
+
+       
 
         private void tinhTien(object sender, EventArgs e)
         { //btnTotal
@@ -122,10 +68,14 @@ namespace CafeSweetHomie
                             tragungmatong,tralai;
                         //Toppinggggggggggg
                         double tranchauduongden, oreoTopping, planTrung, planchocolate, suongsao, thachphomai, macchiatoTopping, whippingCream;
-                        double tax;
-                        tax = 0.45;
                         //cafe Viet pries
                         denda = 25000; bacsiu = 29000; suada = 29000; cafeSuaTuoi = 25000;
+                        if(checkIsMorning())
+                        {
+                            denda -= 5000; bacsiu -= 5000; suada -= 5000; 
+                            cafeSuaTuoi -= 5000;
+
+                        }
                         //Da Xay
                         chocolate = 37000; oreo = 39000; cafeDaXay = 37000; matcha = 39000;
                         //Sinh To
@@ -671,9 +621,23 @@ namespace CafeSweetHomie
         private void printToolStripButton_Click(object sender, EventArgs e)
         {
             tinhTien(null, e);
-            printDocument1.DefaultPageSettings.PaperSize = new PaperSize("72 x 500 mm", 284, 1000);
-            printPreviewDialog1.Document = printDocument1;
-            printPreviewDialog1.ShowDialog();
+            string total = lblTotal.Text;
+            if (total != "0 đ") 
+            {
+                printDocument1.DefaultPageSettings.PaperSize = new PaperSize("72 x 5000 mm", 284, 5000);
+                printPreviewDialog1.Document = printDocument1;
+
+                printDocument1.Print();
+                this.isPrint = true;
+            }
+            else
+            {
+                MessageBox.Show("Có gì đâu mà in?", "Thông Báo");
+            }
+          
+            //(printPreviewDialog1 as Form).WindowState = FormWindowState.Maximized;
+            //printPreviewDialog1.ShowDialog();
+
         }
 
         private void newToolStripButton_Click(object sender, EventArgs e)
@@ -3350,6 +3314,7 @@ namespace CafeSweetHomie
 
         private void reset(object sender, EventArgs e)
         {
+            this.isPrint = false;
             chkDenDa.Checked = false;
             chkSuaDa.Checked = false;
             chkBacSiu.Checked = false;
@@ -3412,11 +3377,24 @@ namespace CafeSweetHomie
             chkMatcha.Checked = false;
 
         }
+        public bool checkIsMorning()
+        {
+            TimeSpan start = new TimeSpan(7, 0, 0); //7 o'clock Am
+            TimeSpan end = new TimeSpan(11, 0, 0); //11 o'clock Am
+            TimeSpan now = DateTime.Now.TimeOfDay;
 
+            return (now > start) && (now < end);
+        }
         private void timer2_Tick(object sender, EventArgs e)
         {
-            reset(sender, e);
+            if(this.isPrint)
+            {
+                reset(sender, e);
+
+            }
+
         }
+
 
         private void btnExit_Click(object sender, EventArgs e)
         {
