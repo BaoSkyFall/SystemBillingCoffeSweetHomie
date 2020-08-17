@@ -56,7 +56,7 @@ namespace CafeSweetHomie
                 try
                 {
                     double disCount = Convert.ToDouble(txtDiscount.Text);
-                    if (disCount < 100 && disCount >= 0)
+                    if (disCount <= 100 && disCount >= 0)   
                     {
 
                     //Thuc Uong
@@ -70,12 +70,12 @@ namespace CafeSweetHomie
                         double tranchauduongden, oreoTopping, planTrung, planchocolate, suongsao, thachphomai, macchiatoTopping, whippingCream;
                         //cafe Viet pries
                         denda = 25000; bacsiu = 29000; suada = 29000; cafeSuaTuoi = 25000;
-                        if(checkIsMorning())
-                        {
-                            denda -= 5000; bacsiu -= 5000; suada -= 5000; 
-                            cafeSuaTuoi -= 5000;
+                        //if(checkIsMorning())
+                        //{
+                        //    denda -= 5000; bacsiu -= 5000; suada -= 5000; 
+                        //    cafeSuaTuoi -= 5000;
 
-                        }
+                        //}
                         //Da Xay
                         chocolate = 37000; oreo = 39000; cafeDaXay = 37000; matcha = 39000;
                         //Sinh To
@@ -3380,7 +3380,7 @@ namespace CafeSweetHomie
         public bool checkIsMorning()
         {
             TimeSpan start = new TimeSpan(7, 0, 0); //7 o'clock Am
-            TimeSpan end = new TimeSpan(11, 0, 0); //11 o'clock Am
+            TimeSpan end = new TimeSpan(13, 0, 0); //11 o'clock Am
             TimeSpan now = DateTime.Now.TimeOfDay;
 
             return (now > start) && (now < end);
@@ -3399,6 +3399,11 @@ namespace CafeSweetHomie
         private void btnExit_Click(object sender, EventArgs e)
         {
             Environment.Exit(0);
+        }
+
+        private void panel7_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

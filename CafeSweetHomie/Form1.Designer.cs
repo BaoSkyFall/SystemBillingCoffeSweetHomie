@@ -181,7 +181,6 @@
             this.lblDrinkCost = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
@@ -312,6 +311,7 @@
             this.minusPlanTrung = new FontAwesome.Sharp.IconButton();
             this.minusOreoTopping = new FontAwesome.Sharp.IconButton();
             this.plusPlanTrung = new FontAwesome.Sharp.IconButton();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel4.SuspendLayout();
             this.panel8.SuspendLayout();
             this.panel9.SuspendLayout();
@@ -321,11 +321,11 @@
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel7.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel5.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel12.SuspendLayout();
             this.panel11.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // rtfReceipt
@@ -338,7 +338,7 @@
             // 
             // panel4
             // 
-            this.panel4.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.panel4.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.panel4.Controls.Add(this.minusMatcha);
             this.panel4.Controls.Add(this.plusMatcha);
             this.panel4.Controls.Add(this.minusCafeDaXay);
@@ -713,7 +713,7 @@
             // 
             // panel8
             // 
-            this.panel8.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.panel8.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.panel8.Controls.Add(this.minusNuocEpChanhDay);
             this.panel8.Controls.Add(this.plusNuocEpChanhDay);
             this.panel8.Controls.Add(this.txtNuocEpChanhDay);
@@ -1332,7 +1332,7 @@
             // 
             // panel9
             // 
-            this.panel9.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.panel9.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.panel9.Controls.Add(this.minusDauXoaiCam);
             this.panel9.Controls.Add(this.plusDauXoaiCam);
             this.panel9.Controls.Add(this.txtDauXoaiCam);
@@ -1366,7 +1366,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.panel1.BackColor = System.Drawing.Color.Goldenrod;
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.txtDiscount);
             this.panel1.Controls.Add(this.lblDate);
@@ -1381,22 +1381,22 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("UTM Alexander", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label2.Location = new System.Drawing.Point(1021, 28);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(212, 24);
+            this.label2.Size = new System.Drawing.Size(212, 26);
             this.label2.TabIndex = 3;
             this.label2.Text = "Nhập Khuyến Mãi (%)";
             // 
             // txtDiscount
             // 
             this.txtDiscount.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtDiscount.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDiscount.Location = new System.Drawing.Point(1238, 24);
+            this.txtDiscount.Font = new System.Drawing.Font("UTM Alexander", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDiscount.Location = new System.Drawing.Point(1236, 22);
             this.txtDiscount.Name = "txtDiscount";
-            this.txtDiscount.Size = new System.Drawing.Size(54, 31);
+            this.txtDiscount.Size = new System.Drawing.Size(54, 33);
             this.txtDiscount.TabIndex = 4;
             this.txtDiscount.Text = "0";
             this.txtDiscount.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1429,14 +1429,14 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("UTM Alexander", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("UTM Cookies", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(286, -8);
+            this.label1.Location = new System.Drawing.Point(444, -7);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(520, 65);
+            this.label1.Size = new System.Drawing.Size(347, 65);
             this.label1.TabIndex = 0;
-            this.label1.Text = "SWEET HOMIE BILLING";
+            this.label1.Text = "SWEET HOMIEE";
             // 
             // timer1
             // 
@@ -1557,7 +1557,7 @@
             // 
             // paelSuaChua
             // 
-            this.paelSuaChua.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.paelSuaChua.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.paelSuaChua.Controls.Add(this.minusSuaChuaChanhDay);
             this.paelSuaChua.Controls.Add(this.plusSuaChuaChanhDay);
             this.paelSuaChua.Controls.Add(this.txtSuaChuaChanhDay);
@@ -1794,7 +1794,7 @@
             // 
             // panel10
             // 
-            this.panel10.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.panel10.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.panel10.Controls.Add(this.minusSodaCam);
             this.panel10.Controls.Add(this.plusSodaCam);
             this.panel10.Controls.Add(this.txtSodaCam);
@@ -2344,7 +2344,7 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.panel2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.panel2.Controls.Add(this.minusCafeSuaTuoi);
             this.panel2.Controls.Add(this.plusCafeSuaTuoi);
             this.panel2.Controls.Add(this.minusBacSiu);
@@ -2371,7 +2371,7 @@
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.panel3.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.panel3.Controls.Add(this.lblPhiDichVu);
             this.panel3.Controls.Add(this.label5);
             this.panel3.Controls.Add(this.lblCakeCost);
@@ -2465,7 +2465,7 @@
             // 
             // panel7
             // 
-            this.panel7.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.panel7.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.panel7.Controls.Add(this.pictureBox1);
             this.panel7.Controls.Add(this.button3);
             this.panel7.Controls.Add(this.button2);
@@ -2474,16 +2474,7 @@
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(623, 191);
             this.panel7.TabIndex = 1;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::CafeSweetHomie.Properties.Resources.logo;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(306, 188);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
+            this.panel7.Paint += new System.Windows.Forms.PaintEventHandler(this.panel7_Paint);
             // 
             // button3
             // 
@@ -2501,7 +2492,7 @@
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.Crimson;
+            this.button2.BackColor = System.Drawing.Color.Goldenrod;
             this.button2.Font = new System.Drawing.Font("UTM Alexander", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.button2.Location = new System.Drawing.Point(317, 67);
@@ -2515,7 +2506,7 @@
             // 
             // panel5
             // 
-            this.panel5.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.panel5.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.panel5.Controls.Add(this.lblKhuyenMai);
             this.panel5.Controls.Add(this.lblTotal);
             this.panel5.Controls.Add(this.label11);
@@ -2597,6 +2588,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label9.Font = new System.Drawing.Font("UTM Alexander", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label9.Location = new System.Drawing.Point(6, 13);
@@ -2621,7 +2613,7 @@
             // 
             // panel12
             // 
-            this.panel12.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.panel12.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.panel12.Controls.Add(this.minusTraHoaHongMatOng);
             this.panel12.Controls.Add(this.plusTraHoaHongMatOng);
             this.panel12.Controls.Add(this.txtTraHoaHongMatOng);
@@ -3902,7 +3894,7 @@
             // 
             // panel11
             // 
-            this.panel11.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.panel11.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.panel11.Controls.Add(this.txtWhippinCream);
             this.panel11.Controls.Add(this.minusWhippinCream);
             this.panel11.Controls.Add(this.plusWhippinCream);
@@ -4400,6 +4392,16 @@
             this.plusPlanTrung.UseVisualStyleBackColor = true;
             this.plusPlanTrung.Click += new System.EventHandler(this.plus_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::CafeSweetHomie.Properties.Resources.logo;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(306, 188);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -4435,7 +4437,6 @@
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.panel7.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
             this.panel6.ResumeLayout(false);
@@ -4443,6 +4444,7 @@
             this.panel12.PerformLayout();
             this.panel11.ResumeLayout(false);
             this.panel11.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -4729,8 +4731,8 @@
         private FontAwesome.Sharp.IconButton minusPlanTrung;
         private FontAwesome.Sharp.IconButton minusOreoTopping;
         private FontAwesome.Sharp.IconButton plusPlanTrung;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
