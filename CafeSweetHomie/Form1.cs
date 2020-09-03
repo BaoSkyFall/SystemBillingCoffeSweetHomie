@@ -65,17 +65,17 @@ namespace CafeSweetHomie
                             suachuadaxay,suachuavietquat,suachuadao,suachuadau,suachuachanhday,sodachanh,bluecucarao,sodadao,sodabacha,sodacam,
                             tradenmacchiato,matchamacchiato,traolongmacchiato,luctramacchiato,traxoaimacchiato,trahoadaubiecmacchiato,trasuathaixanh,trahoadaubiec,
                             trahoacuc, trahoacuchatchia, trahoahongmatong,tradao,tradaocamsa,travaihatchia,travaiduahau,traliptonchanh,traliptonsua,travietquat,tracammatong,
-                            tragungmatong,tralai;
+                            tragungmatong,tralai,thuongtigerbac,thuongstrongbow,thuongbudweiser, updowntigerbac, updownstrongbow, updownbudweiser,dauphongrang,khogalachanh,comchaykhoga,daheo,banhtrang,magarita,deepsea,mojito;
                         //Toppinggggggggggg
                         double tranchauduongden, oreoTopping, planTrung, planchocolate, suongsao, thachphomai, macchiatoTopping, whippingCream;
-                        //cafe Viet pries
+                        //cafe Viet prices
                         denda = 25000; bacsiu = 29000; suada = 29000; cafeSuaTuoi = 25000;
-                        //if(checkIsMorning())
-                        //{
-                        //    denda -= 5000; bacsiu -= 5000; suada -= 5000; 
-                        //    cafeSuaTuoi -= 5000;
+                        if (checkIsMorning())
+                        {
+                            denda -= 5000; bacsiu -= 5000; suada -= 5000;
+                            cafeSuaTuoi -= 5000;
 
-                        //}
+                        }
                         //Da Xay
                         chocolate = 37000; oreo = 39000; cafeDaXay = 37000; matcha = 39000;
                         //Sinh To
@@ -95,6 +95,17 @@ namespace CafeSweetHomie
 
                         //Toppinggggg
                         tranchauduongden = 7000; oreoTopping = 7000; planTrung = 5000; planchocolate = 5000; suongsao = 5000; thachphomai = 5000; macchiatoTopping = 7000; whippingCream = 7000;
+                        //Beer Thuong
+                        thuongtigerbac = 25000; thuongstrongbow = 30000; thuongbudweiser = 35000;
+                        //Beer Updown
+                        updowntigerbac = 43000; updownstrongbow = 49000; updownbudweiser = 53000;
+                        //Do An Vat
+                        dauphongrang = 20000; khogalachanh = 25000; comchaykhoga = 25000;daheo = 25000;banhtrang = 15000;
+                        //Cocktail
+                        magarita = 60000; deepsea = 55000;mojito = 55000;
+
+
+
 
                         //Cafe Viet
                         double denDaCof = Convert.ToDouble(txtDenDa.Text);
@@ -160,12 +171,34 @@ namespace CafeSweetHomie
                         double tranchauduongdenCof = Convert.ToDouble(txtTranChauDuongDen.Text);
                         double oreotoppingCof = Convert.ToDouble(txtOreoTopping.Text);
                         double plantrungCof = Convert.ToDouble(txtPlanTrung.Text);
-                        double planchocolateCof = Convert.ToDouble(txtPlanChocolate.Text);
                         double suongsaoCof = Convert.ToDouble(txtSuongSao.Text);
                         double thachphomaiCof = Convert.ToDouble(txtThachPhoMai.Text);
                         double machiatotoppingCof = Convert.ToDouble(txtMacchiatoTopping.Text);
-                        double whippincreamCof = Convert.ToDouble(txtWhippinCream.Text);
-           
+
+
+                        //Beer
+                        double thuongTigerBacCof = Convert.ToDouble(txtThuongTigerBac.Text);
+                        double thuongStrongbowCof = Convert.ToDouble(txtThuongStrongbow.Text);
+                        double thuongBudweiserCof = Convert.ToDouble(txtThuongBudweiser.Text);
+                        double updownTigerBacCof = Convert.ToDouble(txtUpdownTigerBac.Text);
+                        double updownStrongbowCof = Convert.ToDouble(txtUpdownStrongbow.Text);
+                        double updownBudweiserCof = Convert.ToDouble(txtUpdownBudweiser.Text);
+
+                        //Do An Vat
+                        double dauPhongRangCof = Convert.ToDouble(txtDauPhongRang.Text);
+                        double khoGaLaChanhCof = Convert.ToDouble(txtKhoGaLaChanh.Text);
+                        double comChayKhoGaCof = Convert.ToDouble(txtComChayKhoGa.Text);
+                        double daHeoCof = Convert.ToDouble(txtDaHeo.Text);
+                        double banhTrangCof = Convert.ToDouble(txtBanhTrang.Text);
+
+                        //Cocktail
+                        double magaritaCof = Convert.ToDouble(txtMagarita.Text);
+                        double deepSeaCof = Convert.ToDouble(txtDeepSea.Text);
+                        double mojitoCof = Convert.ToDouble(txtMojito.Text);
+                 
+
+
+
                         //Cafe eat_in_cafe = new Cafe(denDaCof, suaDaCof, bacSiuCof, cafeSuaTuoiCof,cofCake,redValvet,bForest,bostonCream,lagosChoco,kilbChoco,cheeseCak,rainbow);
                         var info = System.Globalization.CultureInfo.GetCultureInfo("vi-VN");
 
@@ -182,11 +215,24 @@ namespace CafeSweetHomie
                             + (traxoaimacchiatoCof * traxoaimacchiato) + (trahoadaubiecmacchiato * trahoadaubiecmacchiatoCof) + (trasuathaixanh * trasuathaixanhCof) + (trahoadaubiec * trahoadaubiecCof)
                             + (trahoacuc * trahoacucCof) + (trahoacuchatchia * trahoacuchatchiaCof) + (trahoahongmatong * trahoahongmatongCof) + (tradao * tradaoCof)
                              + (tradaocamsa * tradaocamsaCof) + (travaihatchia * travaihatchiaCof) + (travaiduahau * travaiduahauCof) + (traliptonchanh * traliptonchanhCof)
-                              + (traliptonsua * traliptonsuaCof) + (travietquat * travietquatCof) + (tracammatong * tracammatongCof) + (tragungmatong * tragungmatongCof) + (tralai * tralaiCof);
+                              + (traliptonsua * traliptonsuaCof) + (travietquat * travietquatCof) + (tracammatong * tracammatongCof) + (tragungmatong * tragungmatongCof) + (tralai * tralaiCof)
+                               + (thuongtigerbac * thuongTigerBacCof)
+  + (thuongstrongbow * thuongStrongbowCof)
+   + (thuongbudweiser * thuongBudweiserCof)
+    + (updowntigerbac * updownTigerBacCof)
+     + (updownstrongbow * updownStrongbowCof)
+      + (updownbudweiser * updownBudweiserCof)
+      
+            + (magarita * magaritaCof)
+              + (deepsea * deepSeaCof)
+                + (mojito * mojitoCof);
                         lblDrinkCost.Text = Convert.ToString(drinkCosts);
                         double cakeCosts = (tranchauduongdenCof * tranchauduongden) + (oreotoppingCof * oreoTopping) + (plantrungCof * planTrung) +
-                            (planchocolateCof * planchocolate) + (suongsaoCof * suongsao) + (thachphomaiCof * thachphomai) + (machiatotoppingCof * macchiatoTopping)
-                            +(whippincreamCof* whippingCream);
+                            + (suongsaoCof * suongsao) + (thachphomaiCof * thachphomai) + (machiatotoppingCof * macchiatoTopping) + (dauphongrang * dauPhongRangCof)
+        + (khogalachanh * khoGaLaChanhCof)
+         + (comchaykhoga * comChayKhoGaCof)
+          + (daheo * daHeoCof)
+                          ;
                         lblCakeCost.Text = Convert.ToString(cakeCosts);
 
                         //double svcCharge = Math.Round(Convert.ToDouble(lblPhiDichVu.Text));
@@ -363,7 +409,16 @@ namespace CafeSweetHomie
                                 rtfReceipt.AppendText("Soda Đào " + Environment.NewLine + txtSodaDao.Text + "\t\t" + string.Format("{0:#,0}", sodadao) + "\t   " + string.Format("{0:#,0}", sodadaoCof * sodadao) + " đ" + Environment.NewLine);
 
                         }
+                        if (txtBlueCucarao.Text != "0")
+                        {
+                            rtfReceipt.AppendText("Soda Blue Cucarao " + Environment.NewLine + txtBlueCucarao.Text + "\t\t" + string.Format("{0:#,0}",bluecucarao) + "\t   " + string.Format("{0:#,0}", bluecucaraoCof * bluecucarao) + " đ" + Environment.NewLine);
 
+                        }
+                        if (txtSodaBacHa.Text != "0")
+                        {
+                            rtfReceipt.AppendText("Soda Bạc Hà " + Environment.NewLine + txtSodaBacHa.Text + "\t\t" + string.Format("{0:#,0}", sodabacha) + "\t   " + string.Format("{0:#,0}", sodabachaCof * sodabacha) + " đ" + Environment.NewLine);
+
+                        }
                         //Trà
                         if (txtTraDenMacchiato.Text != "0")
                         {
@@ -490,11 +545,7 @@ namespace CafeSweetHomie
                             rtfReceipt.AppendText("Plan Trứng (Topping)" + Environment.NewLine + txtPlanTrung.Text + "\t\t" + string.Format("{0:#,0}", planTrung) + "\t   " + string.Format("{0:#,0}", plantrungCof * planTrung) + " đ" + Environment.NewLine);
 
                         }
-                        if (txtPlanChocolate.Text != "0")
-                        {
-                            rtfReceipt.AppendText("Plan Chocolate (Topping)" + Environment.NewLine + txtPlanChocolate.Text + "\t\t" + string.Format("{0:#,0}", planchocolate) + "\t   " + string.Format("{0:#,0}", planchocolateCof * planchocolate) + " đ" + Environment.NewLine);
-
-                        }
+                      
                         if (txtSuongSao.Text != "0")
                         {
                             rtfReceipt.AppendText("Sương Sáo (Topping)" + Environment.NewLine + txtSuongSao.Text + "\t\t" + string.Format("{0:#,0}", suongsao) + "\t   " + string.Format("{0:#,0}", suongsaoCof * suongsao) + " đ" + Environment.NewLine);
@@ -502,7 +553,7 @@ namespace CafeSweetHomie
                         }
                         if (txtThachPhoMai.Text != "0")
                         {
-                            rtfReceipt.AppendText("Thạch Phô Mai (Topping)" + Environment.NewLine + txtThachPhoMai.Text + "\t\t" + string.Format("{0:#,0}", thachphomai) + "\t   " + string.Format("{0:#,0}", thachphomaiCof * thachphomai) + " đ" + Environment.NewLine);
+                            rtfReceipt.AppendText("Thạch Chocolate (Topping)" + Environment.NewLine + txtThachPhoMai.Text + "\t\t" + string.Format("{0:#,0}", thachphomai) + "\t   " + string.Format("{0:#,0}", thachphomaiCof * thachphomai) + " đ" + Environment.NewLine);
 
                         }
                         if (txtMacchiatoTopping.Text != "0")
@@ -510,16 +561,82 @@ namespace CafeSweetHomie
                             rtfReceipt.AppendText("Macchiato (Topping)" + Environment.NewLine + txtMacchiatoTopping.Text + "\t\t" + string.Format("{0:#,0}", macchiatoTopping) + "\t   " + string.Format("{0:#,0}", machiatotoppingCof * macchiatoTopping) + " đ" + Environment.NewLine);
 
                         }
-                        if (txtWhippinCream.Text != "0")
+                        //Beer
+                        if (txtThuongTigerBac.Text != "0")
                         {
-                            rtfReceipt.AppendText("Whippin Cream (Topping)" + Environment.NewLine + txtWhippinCream.Text + "\t\t" + string.Format("{0:#,0}", whippingCream) + "\t   " + string.Format("{0:#,0}", whippincreamCof * whippingCream) + " đ" + Environment.NewLine);
+                            rtfReceipt.AppendText("Beer Tiger Bạc" + Environment.NewLine + txtThuongTigerBac.Text + "\t\t" + string.Format("{0:#,0}", thuongtigerbac) + "\t   " + string.Format("{0:#,0}", thuongTigerBacCof * thuongtigerbac) + " đ" + Environment.NewLine);
 
                         }
-               
+                        if (txtThuongStrongbow.Text != "0")
+                        {
+                            rtfReceipt.AppendText("Beer Strongbow" + Environment.NewLine + txtThuongStrongbow.Text + "\t\t" + string.Format("{0:#,0}", thuongstrongbow) + "\t   " + string.Format("{0:#,0}", thuongStrongbowCof * thuongstrongbow) + " đ" + Environment.NewLine);
+
+                        }
+                        if (txtThuongBudweiser.Text != "0")
+                        {
+                            rtfReceipt.AppendText("Beer Budweiser" + Environment.NewLine + txtThuongBudweiser.Text + "\t\t" + string.Format("{0:#,0}", thuongbudweiser) + "\t   " + string.Format("{0:#,0}", thuongBudweiserCof * thuongbudweiser) + " đ" + Environment.NewLine);
+
+                        }
+                        if (txtUpdownTigerBac.Text != "0")
+                        {
+                            rtfReceipt.AppendText("Updown Tiger Bạc" + Environment.NewLine + txtUpdownTigerBac.Text + "\t\t" + string.Format("{0:#,0}", updowntigerbac) + "\t   " + string.Format("{0:#,0}", updownTigerBacCof * updowntigerbac) + " đ" + Environment.NewLine);
+
+                        }
+                        if (txtUpdownStrongbow.Text != "0")
+                        {
+                            rtfReceipt.AppendText("Updown Strongbow" + Environment.NewLine + txtUpdownStrongbow.Text + "\t\t" + string.Format("{0:#,0}", updownstrongbow) + "\t   " + string.Format("{0:#,0}", updownStrongbowCof * updownstrongbow) + " đ" + Environment.NewLine);
+
+                        }
+                        if (txtUpdownBudweiser.Text != "0")
+                        {
+                            rtfReceipt.AppendText("Updown Budweiser" + Environment.NewLine + txtUpdownBudweiser.Text + "\t\t" + string.Format("{0:#,0}", updownbudweiser) + "\t   " + string.Format("{0:#,0}", updownBudweiserCof * updownbudweiser) + " đ" + Environment.NewLine);
+
+                        }
+                        if (txtDauPhongRang.Text != "0")
+                        {
+                            rtfReceipt.AppendText("Đậu phộng rang muối" + Environment.NewLine + txtDauPhongRang.Text + "\t\t" + string.Format("{0:#,0}", dauphongrang) + "\t   " + string.Format("{0:#,0}", dauPhongRangCof * dauphongrang) + " đ" + Environment.NewLine);
+
+                        }
+                        if (txtKhoGaLaChanh.Text != "0")
+                        {
+                            rtfReceipt.AppendText("Khô gà lá chanh" + Environment.NewLine + txtKhoGaLaChanh.Text + "\t\t" + string.Format("{0:#,0}", khogalachanh) + "\t   " + string.Format("{0:#,0}", khoGaLaChanhCof * khogalachanh) + " đ" + Environment.NewLine);
+
+                        }
+                        if (txtComChayKhoGa.Text != "0")
+                        {
+                            rtfReceipt.AppendText("Cơm cháy khô gà" + Environment.NewLine + txtComChayKhoGa.Text + "\t\t" + string.Format("{0:#,0}", comchaykhoga) + "\t   " + string.Format("{0:#,0}", comChayKhoGaCof * comchaykhoga) + " đ" + Environment.NewLine);
+
+                        }
+                        if (txtDaHeo.Text != "0")
+                        {
+                            rtfReceipt.AppendText("Da Heo" + Environment.NewLine + txtDaHeo.Text + "\t\t" + string.Format("{0:#,0}", daheo) + "\t   " + string.Format("{0:#,0}", daHeoCof * daheo) + " đ" + Environment.NewLine);
+
+                        }
+                        if (txtBanhTrang.Text != "0")
+                        {
+                            rtfReceipt.AppendText("Bánh Tráng" + Environment.NewLine + txtBanhTrang.Text + "\t\t" + string.Format("{0:#,0}", banhtrang) + "\t   " + string.Format("{0:#,0}", banhTrangCof * banhtrang) + " đ" + Environment.NewLine);
+
+                        }
+                        if (txtMagarita.Text != "0")
+                        {
+                            rtfReceipt.AppendText("Cocktail Magarita" + Environment.NewLine + txtMagarita.Text + "\t\t" + string.Format("{0:#,0}", magarita) + "\t   " + string.Format("{0:#,0}", magaritaCof * magarita) + " đ" + Environment.NewLine);
+
+                        }
+                        if (txtDeepSea.Text != "0")
+                        {
+                            rtfReceipt.AppendText("Cocktai Deep Sea" + Environment.NewLine + txtDeepSea.Text + "\t\t" + string.Format("{0:#,0}", deepsea) + "\t   " + string.Format("{0:#,0}", deepSeaCof * deepsea) + " đ" + Environment.NewLine);
+
+                        }
+                        if (txtMojito.Text != "0")
+                        {
+                            rtfReceipt.AppendText("Cocktail Mojito" + Environment.NewLine + txtMojito.Text + "\t\t" + string.Format("{0:#,0}", mojito) + "\t   " + string.Format("{0:#,0}", mojitoCof * mojito) + " đ" + Environment.NewLine);
+
+                        }
+                       
 
 
 
-                                        rtfReceipt.AppendText("---------------------------------------------------------" + Environment.NewLine);
+                        rtfReceipt.AppendText("---------------------------------------------------------" + Environment.NewLine);
                         rtfReceipt.AppendText("Phí Dịch Vụ \t\t   " + String.Format("{0:#,0}", lblPhiDichVu.Text) + Environment.NewLine);
 
                         if (totalAftTax != 0)
@@ -622,19 +739,25 @@ namespace CafeSweetHomie
         {
             tinhTien(null, e);
             string total = lblTotal.Text;
-            if (total != "0 đ") 
-            {
+            string totalDrink = lblDrinkCost.Text;
+            string totalToping = lblCakeCost.Text;
+
+
                 printDocument1.DefaultPageSettings.PaperSize = new PaperSize("72 x 5000 mm", 284, 5000);
                 printPreviewDialog1.Document = printDocument1;
 
                 printDocument1.Print();
-                this.isPrint = true;
-            }
-            else
-            {
-                MessageBox.Show("Có gì đâu mà in?", "Thông Báo");
-            }
-          
+                printDocument1.Print();
+
+            //if (txtDiscount.Text != "100" || txtDiscount.Text != "1000" || txtDiscount.Text != "10000")
+            //{
+            //    printDocument1.Print();
+
+            //}
+            this.isPrint = true;
+            
+            //printDocument1.DefaultPageSettings.PaperSize = new PaperSize("72 x 5000 mm", 284, 5000);
+            //printPreviewDialog1.Document = printDocument1;
             //(printPreviewDialog1 as Form).WindowState = FormWindowState.Maximized;
             //printPreviewDialog1.ShowDialog();
 
@@ -1486,20 +1609,7 @@ namespace CafeSweetHomie
                     txtPlanTrung.Text = "0";
                 }
             }
-            else if (label == "Plan Chocolate")
-            {
-                if (chkPlanChocolate.Checked == true)
-                {
-                    txtPlanChocolate.Enabled = true;
-                    txtPlanChocolate.Text = "1";
-
-                }
-                else
-                {
-                    txtPlanChocolate.Enabled = false;
-                    txtPlanChocolate.Text = "0";
-                }
-            }
+           
             else if (label == "Sương Sáo")
             {
                 if (chkSuongSao.Checked == true)
@@ -1542,20 +1652,203 @@ namespace CafeSweetHomie
                     txtMacchiatoTopping.Text = "0";
                 }
             }
-            else if (label == "Whippin Cream")
+            else if (name == "chkThuongTigerBac")
             {
-                if (chkWhippinCream.Checked == true)
+                if (chkThuongTigerBac.Checked == true)
                 {
-                    txtWhippinCream.Enabled = true;
-                    txtWhippinCream.Text = "1";
+                    txtThuongTigerBac.Enabled = true;
+                    txtThuongTigerBac.Text = "1";
 
                 }
                 else
                 {
-                    txtWhippinCream.Enabled = false;
-                    txtWhippinCream.Text = "0";
+                    txtThuongTigerBac.Enabled = false;
+                    txtThuongTigerBac.Text = "0";
                 }
             }
+            else if (name == "chkThuongStrongbow")
+            {
+                if (chkThuongStrongbow.Checked == true)
+                {
+                    txtThuongStrongbow.Enabled = true;
+                    txtThuongStrongbow.Text = "1";
+
+                }
+                else
+                {
+                    txtThuongStrongbow.Enabled = false;
+                    txtThuongStrongbow.Text = "0";
+                }
+            }
+            else if (name == "chkThuongBudweiser")
+            {
+                if (chkThuongBudweiser.Checked == true)
+                {
+                    txtThuongBudweiser.Enabled = true;
+                    txtThuongBudweiser.Text = "1";
+
+                }
+                else
+                {
+                    txtThuongBudweiser.Enabled = false;
+                    txtThuongBudweiser.Text = "0";
+                }
+            }
+            else if (name == "chkUpdownTigerBac")
+            {
+                if (chkUpdownTigerBac.Checked == true)
+                {
+                    txtUpdownTigerBac.Enabled = true;
+                    txtUpdownTigerBac.Text = "1";
+
+                }
+                else
+                {
+                    txtUpdownTigerBac.Enabled = false;
+                    txtUpdownTigerBac.Text = "0";
+                }
+            }
+            else if (name == "chkUpdownStrongbow")
+            {
+                if (chkUpdownStrongbow.Checked == true)
+                {
+                    txtUpdownStrongbow.Enabled = true;
+                    txtUpdownStrongbow.Text = "1";
+
+                }
+                else
+                {
+                    txtUpdownStrongbow.Enabled = false;
+                    txtUpdownStrongbow.Text = "0";
+                }
+            }
+            else if (name == "chkUpdownBudweiser")
+            {
+                if (chkUpdownBudweiser.Checked == true)
+                {
+                    txtUpdownBudweiser.Enabled = true;
+                    txtUpdownBudweiser.Text = "1";
+
+                }
+                else
+                {
+                    txtUpdownBudweiser.Enabled = false;
+                    txtUpdownBudweiser.Text = "0";
+                }
+            }
+            else if (name == "chkDauPhongRang")
+            {
+                if (chkDauPhongRang.Checked == true)
+                {
+                    txtDauPhongRang.Enabled = true;
+                    txtDauPhongRang.Text = "1";
+
+                }
+                else
+                {
+                    txtDauPhongRang.Enabled = false;
+                    txtDauPhongRang.Text = "0";
+                }
+            }
+            else if (name == "chkKhoGaLaChanh")
+            {
+                if (chkKhoGaLaChanh.Checked == true)
+                {
+                    txtKhoGaLaChanh.Enabled = true;
+                    txtKhoGaLaChanh.Text = "1";
+
+                }
+                else
+                {
+                    txtKhoGaLaChanh.Enabled = false;
+                    txtKhoGaLaChanh.Text = "0";
+                }
+            }
+            else if (name == "chkComChayKhoGa")
+            {
+                if (chkComChayKhoGa.Checked == true)
+                {
+                    txtComChayKhoGa.Enabled = true;
+                    txtComChayKhoGa.Text = "1";
+
+                }
+                else
+                {
+                    txtComChayKhoGa.Enabled = false;
+                    txtComChayKhoGa.Text = "0";
+                }
+            }
+            else if (name == "chkDaHeo")
+            {
+                if (chkDaHeo.Checked == true)
+                {
+                    txtDaHeo.Enabled = true;
+                    txtDaHeo.Text = "1";
+
+                }
+                else
+                {
+                    txtDaHeo.Enabled = false;
+                    txtDaHeo.Text = "0";
+                }
+            }
+            else if (name == "chkBanhTrang")
+            {
+                if (chkBanhTrang.Checked == true)
+                {
+                    txtBanhTrang.Enabled = true;
+                    txtBanhTrang.Text = "1";
+
+                }
+                else
+                {
+                    txtBanhTrang.Enabled = false;
+                    txtBanhTrang.Text = "0";
+                }
+            }
+            else if (name == "chkMagarita")
+            {
+                if (chkMagarita.Checked == true)
+                {
+                    txtMagarita.Enabled = true;
+                    txtMagarita.Text = "1";
+
+                }
+                else
+                {
+                    txtMagarita.Enabled = false;
+                    txtMagarita.Text = "0";
+                }
+            }
+            else if (name == "chkDeepSea")
+            {
+                if (chkDeepSea.Checked == true)
+                {
+                    txtDeepSea.Enabled = true;
+                    txtDeepSea.Text = "1";
+
+                }
+                else
+                {
+                    txtDeepSea.Enabled = false;
+                    txtDeepSea.Text = "0";
+                }
+            }
+            else if (name == "chkMojito")
+            {
+                if (chkMojito.Checked == true)
+                {
+                    txtMojito.Enabled = true;
+                    txtMojito.Text = "1";
+
+                }
+                else
+                {
+                    txtMojito.Enabled = false;
+                    txtMojito.Text = "0";
+                }
+            }
+           
             //End
         }
 
@@ -2330,20 +2623,7 @@ namespace CafeSweetHomie
                     txtPlanTrung.Text = (Int32.Parse(txtPlanTrung.Text) + 1).ToString();
 
             }
-            else if (s.Contains("PlanChocolate"))
-            {
-                if (!chkPlanChocolate.Checked)
-                {
-                    chkPlanChocolate.Checked = true;
-
-                    txtPlanChocolate.Enabled = true;
-                    txtPlanChocolate.Text = "1";
-
-                }
-                else
-                    txtPlanChocolate.Text = (Int32.Parse(txtPlanChocolate.Text) + 1).ToString();
-
-            }
+          
             else if (s.Contains("SuongSao"))
             {
                 if (!chkSuongSao.Checked)
@@ -2386,22 +2666,206 @@ namespace CafeSweetHomie
                     txtMacchiatoTopping.Text = (Int32.Parse(txtMacchiatoTopping.Text) + 1).ToString();
 
             }
-            else if (s.Contains("WhippinCream"))
+            else if (s.Contains("ThuongTigerBac"))
             {
-                if (!chkWhippinCream.Checked)
+                if (!chkThuongTigerBac.Checked)
                 {
-                    chkWhippinCream.Checked = true;
+                    chkThuongTigerBac.Checked = true;
 
-                    txtWhippinCream.Enabled = true;
-                    txtWhippinCream.Text = "1";
+                    txtThuongTigerBac.Enabled = true;
+                    txtThuongTigerBac.Text = "1";
 
                 }
                 else
-                    txtWhippinCream.Text = (Int32.Parse(txtWhippinCream.Text) + 1).ToString();
+                    txtThuongTigerBac.Text = (Int32.Parse(txtThuongTigerBac.Text) + 1).ToString();
 
             }
-            //Endddddddddddddd
+            else if (s.Contains("ThuongStrongbow"))
+            {
+                if (!chkThuongStrongbow.Checked)
+                {
+                    chkThuongStrongbow.Checked = true;
+
+                    txtThuongStrongbow.Enabled = true;
+                    txtThuongStrongbow.Text = "1";
+
+                }
+                else
+                    txtThuongStrongbow.Text = (Int32.Parse(txtThuongStrongbow.Text) + 1).ToString();
+
+            }
+            else if (s.Contains("ThuongBudweiser"))
+            {
+                if (!chkThuongBudweiser.Checked)
+                {
+                    chkThuongBudweiser.Checked = true;
+
+                    txtThuongBudweiser.Enabled = true;
+                    txtThuongBudweiser.Text = "1";
+
+                }
+                else
+                    txtThuongBudweiser.Text = (Int32.Parse(txtThuongBudweiser.Text) + 1).ToString();
+
+            }
+            else if (s.Contains("UpdownTigerBac"))
+            {
+                if (!chkUpdownTigerBac.Checked)
+                {
+                    chkUpdownTigerBac.Checked = true;
+
+                    txtUpdownTigerBac.Enabled = true;
+                    txtUpdownTigerBac.Text = "1";
+
+                }
+                else
+                    txtUpdownTigerBac.Text = (Int32.Parse(txtUpdownTigerBac.Text) + 1).ToString();
+
+            }
+            else if (s.Contains("UpdownStrongbow"))
+            {
+                if (!chkUpdownStrongbow.Checked)
+                {
+                    chkUpdownStrongbow.Checked = true;
+
+                    txtUpdownStrongbow.Enabled = true;
+                    txtUpdownStrongbow.Text = "1";
+
+                }
+                else
+                    txtUpdownStrongbow.Text = (Int32.Parse(txtUpdownStrongbow.Text) + 1).ToString();
+
+            }
+            else if (s.Contains("UpdownBudweiser"))
+            {
+                if (!chkUpdownBudweiser.Checked)
+                {
+                    chkUpdownBudweiser.Checked = true;
+
+                    txtUpdownBudweiser.Enabled = true;
+                    txtUpdownBudweiser.Text = "1";
+
+                }
+                else
+                    txtUpdownBudweiser.Text = (Int32.Parse(txtUpdownBudweiser.Text) + 1).ToString();
+
+            }
+            else if (s.Contains("DauPhongRang"))
+            {
+                if (!chkDauPhongRang.Checked)
+                {
+                    chkDauPhongRang.Checked = true;
+
+                    txtDauPhongRang.Enabled = true;
+                    txtDauPhongRang.Text = "1";
+
+                }
+                else
+                    txtDauPhongRang.Text = (Int32.Parse(txtDauPhongRang.Text) + 1).ToString();
+
+            }
+            else if (s.Contains("KhoGaLaChanh"))
+            {
+                if (!chkKhoGaLaChanh.Checked)
+                {
+                    chkKhoGaLaChanh.Checked = true;
+
+                    txtKhoGaLaChanh.Enabled = true;
+                    txtKhoGaLaChanh.Text = "1";
+
+                }
+                else
+                    txtKhoGaLaChanh.Text = (Int32.Parse(txtKhoGaLaChanh.Text) + 1).ToString();
+
+            }
+            else if (s.Contains("ComChayKhoGa"))
+            {
+                if (!chkComChayKhoGa.Checked)
+                {
+                    chkComChayKhoGa.Checked = true;
+
+                    txtComChayKhoGa.Enabled = true;
+                    txtComChayKhoGa.Text = "1";
+
+                }
+                else
+                    txtComChayKhoGa.Text = (Int32.Parse(txtComChayKhoGa.Text) + 1).ToString();
+
+            }
+            else if (s.Contains("DaHeo"))
+            {
+                if (!chkDaHeo.Checked)
+                {
+                    chkDaHeo.Checked = true;
+
+                    txtDaHeo.Enabled = true;
+                    txtDaHeo.Text = "1";
+
+                }
+                else
+                    txtDaHeo.Text = (Int32.Parse(txtDaHeo.Text) + 1).ToString();
+
+            }
+            else if (s.Contains("BanhTrang"))
+            {
+                if (!chkBanhTrang.Checked)
+                {
+                    chkBanhTrang.Checked = true;
+
+                    txtBanhTrang.Enabled = true;
+                    txtBanhTrang.Text = "1";
+
+                }
+                else
+                    txtBanhTrang.Text = (Int32.Parse(txtBanhTrang.Text) + 1).ToString();
+
+            }
+            else if (s.Contains("Magarita"))
+            {
+                if (!chkMagarita.Checked)
+                {
+                    chkMagarita.Checked = true;
+
+                    txtMagarita.Enabled = true;
+                    txtMagarita.Text = "1";
+
+                }
+                else
+                    txtMagarita.Text = (Int32.Parse(txtMagarita.Text) + 1).ToString();
+
+            }
+            else if (s.Contains("DeepSea"))
+            {
+                if (!chkDeepSea.Checked)
+                {
+                    chkDeepSea.Checked = true;
+
+                    txtDeepSea.Enabled = true;
+                    txtDeepSea.Text = "1";
+
+                }
+                else
+                    txtDeepSea.Text = (Int32.Parse(txtDeepSea.Text) + 1).ToString();
+
+            }
+            else if (s.Contains("Mojito"))
+            {
+                if (!chkMojito.Checked)
+                {
+                    chkMojito.Checked = true;
+
+                    txtMojito.Enabled = true;
+                    txtMojito.Text = "1";
+
+                }
+                else
+                    txtMojito.Text = (Int32.Parse(txtMojito.Text) + 1).ToString();
+
+            }
             
+            
+            //Endddddddddddddd
+
 
 
         }
@@ -3231,21 +3695,7 @@ namespace CafeSweetHomie
                 }
 
             }
-            else if (s.Contains("PlanChocolate"))
-            {
-                if (Int32.Parse(txtPlanChocolate.Text) > 1)
-                {
-                    txtPlanChocolate.Text = (Int32.Parse(txtPlanChocolate.Text) - 1).ToString();
-
-                }
-                else if (Int32.Parse(txtPlanChocolate.Text) == 1)
-                {
-                    chkPlanChocolate.Checked = false;
-                    txtPlanChocolate.Enabled = false;
-                    txtPlanChocolate.Text = "0";
-                }
-
-            }
+           
             else if (s.Contains("SuongSao"))
             {
                 if (Int32.Parse(txtSuongSao.Text) > 1)
@@ -3291,23 +3741,202 @@ namespace CafeSweetHomie
                 }
 
             }
-            else if (s.Contains("WhippinCream"))
+            else if(s.Contains("ThuongTigerBac"))
             {
-                if (Int32.Parse(txtWhippinCream.Text) > 1)
+                if (Int32.Parse(txtThuongTigerBac.Text) > 1)
                 {
-                    txtWhippinCream.Text = (Int32.Parse(txtWhippinCream.Text) - 1).ToString();
+                    txtThuongTigerBac.Text = (Int32.Parse(txtThuongTigerBac.Text) - 1).ToString();
 
                 }
-                else if (Int32.Parse(txtWhippinCream.Text) == 1)
+                else if (Int32.Parse(txtThuongTigerBac.Text) == 1)
                 {
-                    chkWhippinCream.Checked = false;
-                    txtWhippinCream.Enabled = false;
-                    txtWhippinCream.Text = "0";
+                    chkThuongTigerBac.Checked = false;
+                    txtThuongTigerBac.Enabled = false;
+                    txtThuongTigerBac.Text = "0";
                 }
-
             }
+            else if (s.Contains("ThuongStrongbow"))
+            {
+                if (Int32.Parse(txtThuongStrongbow.Text) > 1)
+                {
+                    txtThuongStrongbow.Text = (Int32.Parse(txtThuongStrongbow.Text) - 1).ToString();
 
+                }
+                else if (Int32.Parse(txtThuongStrongbow.Text) == 1)
+                {
+                    chkThuongStrongbow.Checked = false;
+                    txtThuongStrongbow.Enabled = false;
+                    txtThuongStrongbow.Text = "0";
+                }
+            }
+            else if (s.Contains("ThuongBudweiser"))
+            {
+                if (Int32.Parse(txtThuongBudweiser.Text) > 1)
+                {
+                    txtThuongBudweiser.Text = (Int32.Parse(txtThuongBudweiser.Text) - 1).ToString();
 
+                }
+                else if (Int32.Parse(txtThuongBudweiser.Text) == 1)
+                {
+                    chkThuongBudweiser.Checked = false;
+                    txtThuongBudweiser.Enabled = false;
+                    txtThuongBudweiser.Text = "0";
+                }
+            }
+            else if (s.Contains("UpdownTigerBac"))
+            {
+                if (Int32.Parse(txtUpdownTigerBac.Text) > 1)
+                {
+                    txtUpdownTigerBac.Text = (Int32.Parse(txtUpdownTigerBac.Text) - 1).ToString();
+
+                }
+                else if (Int32.Parse(txtUpdownTigerBac.Text) == 1)
+                {
+                    chkUpdownTigerBac.Checked = false;
+                    txtUpdownTigerBac.Enabled = false;
+                    txtUpdownTigerBac.Text = "0";
+                }
+            }
+            else if (s.Contains("UpdownStrongbow"))
+            {
+                if (Int32.Parse(txtUpdownStrongbow.Text) > 1)
+                {
+                    txtUpdownStrongbow.Text = (Int32.Parse(txtUpdownStrongbow.Text) - 1).ToString();
+
+                }
+                else if (Int32.Parse(txtUpdownStrongbow.Text) == 1)
+                {
+                    chkUpdownStrongbow.Checked = false;
+                    txtUpdownStrongbow.Enabled = false;
+                    txtUpdownStrongbow.Text = "0";
+                }
+            }
+            else if (s.Contains("UpdownBudweiser"))
+            {
+                if (Int32.Parse(txtUpdownBudweiser.Text) > 1)
+                {
+                    txtUpdownBudweiser.Text = (Int32.Parse(txtUpdownBudweiser.Text) - 1).ToString();
+
+                }
+                else if (Int32.Parse(txtUpdownBudweiser.Text) == 1)
+                {
+                    chkUpdownBudweiser.Checked = false;
+                    txtUpdownBudweiser.Enabled = false;
+                    txtUpdownBudweiser.Text = "0";
+                }
+            }
+            else if (s.Contains("DauPhongRang"))
+            {
+                if (Int32.Parse(txtDauPhongRang.Text) > 1)
+                {
+                    txtDauPhongRang.Text = (Int32.Parse(txtDauPhongRang.Text) - 1).ToString();
+
+                }
+                else if (Int32.Parse(txtDauPhongRang.Text) == 1)
+                {
+                    chkDauPhongRang.Checked = false;
+                    txtDauPhongRang.Enabled = false;
+                    txtDauPhongRang.Text = "0";
+                }
+            }
+            else if (s.Contains("KhoGaLaChanh"))
+            {
+                if (Int32.Parse(txtKhoGaLaChanh.Text) > 1)
+                {
+                    txtKhoGaLaChanh.Text = (Int32.Parse(txtKhoGaLaChanh.Text) - 1).ToString();
+
+                }
+                else if (Int32.Parse(txtKhoGaLaChanh.Text) == 1)
+                {
+                    chkKhoGaLaChanh.Checked = false;
+                    txtKhoGaLaChanh.Enabled = false;
+                    txtKhoGaLaChanh.Text = "0";
+                }
+            }
+            else if (s.Contains("ComChayKhoGa"))
+            {
+                if (Int32.Parse(txtComChayKhoGa.Text) > 1)
+                {
+                    txtComChayKhoGa.Text = (Int32.Parse(txtComChayKhoGa.Text) - 1).ToString();
+
+                }
+                else if (Int32.Parse(txtComChayKhoGa.Text) == 1)
+                {
+                    chkComChayKhoGa.Checked = false;
+                    txtComChayKhoGa.Enabled = false;
+                    txtComChayKhoGa.Text = "0";
+                }
+            }
+            else if (s.Contains("DaHeo"))
+            {
+                if (Int32.Parse(txtDaHeo.Text) > 1)
+                {
+                    txtDaHeo.Text = (Int32.Parse(txtDaHeo.Text) - 1).ToString();
+
+                }
+                else if (Int32.Parse(txtDaHeo.Text) == 1)
+                {
+                    chkDaHeo.Checked = false;
+                    txtDaHeo.Enabled = false;
+                    txtDaHeo.Text = "0";
+                }
+            }
+            else if (s.Contains("BanhTrang"))
+            {
+                if (Int32.Parse(txtBanhTrang.Text) > 1)
+                {
+                    txtBanhTrang.Text = (Int32.Parse(txtBanhTrang.Text) - 1).ToString();
+
+                }
+                else if (Int32.Parse(txtBanhTrang.Text) == 1)
+                {
+                    chkBanhTrang.Checked = false;
+                    txtBanhTrang.Enabled = false;
+                    txtBanhTrang.Text = "0";
+                }
+            }
+            else if (s.Contains("Magarita"))
+            {
+                if (Int32.Parse(txtMagarita.Text) > 1)
+                {
+                    txtMagarita.Text = (Int32.Parse(txtMagarita.Text) - 1).ToString();
+
+                }
+                else if (Int32.Parse(txtMagarita.Text) == 1)
+                {
+                    chkMagarita.Checked = false;
+                    txtMagarita.Enabled = false;
+                    txtMagarita.Text = "0";
+                }
+            }
+            else if (s.Contains("DeepSea"))
+            {
+                if (Int32.Parse(txtDeepSea.Text) > 1)
+                {
+                    txtDeepSea.Text = (Int32.Parse(txtDeepSea.Text) - 1).ToString();
+
+                }
+                else if (Int32.Parse(txtDeepSea.Text) == 1)
+                {
+                    chkDeepSea.Checked = false;
+                    txtDeepSea.Enabled = false;
+                    txtDeepSea.Text = "0";
+                }
+            }
+            else if (s.Contains("Mojito"))
+            {
+                if (Int32.Parse(txtMojito.Text) > 1)
+                {
+                    txtMojito.Text = (Int32.Parse(txtMojito.Text) - 1).ToString();
+
+                }
+                else if (Int32.Parse(txtMojito.Text) == 1)
+                {
+                    chkMojito.Checked = false;
+                    txtMojito.Enabled = false;
+                    txtMojito.Text = "0";
+                }
+            }
         }
 
      
@@ -3367,14 +3996,16 @@ namespace CafeSweetHomie
             chkTranChauDuongDen.Checked = false;
             chkOreoTopping.Checked = false;
             chkPlanTrung.Checked = false;
-            chkPlanChocolate.Checked = false;
             chkSuongSao.Checked = false;
             chkThachPhoMai.Checked = false;
             chkMacchiatoTopping.Checked = false;
-            chkWhippinCream.Checked = false;
             chkSinhToBo.Checked = false;
             chkSinhToXoai.Checked = false;
             chkMatcha.Checked = false;
+
+            //txtDiscount
+            txtDiscount.Text = "0";
+
 
         }
         public bool checkIsMorning()
@@ -3402,6 +4033,11 @@ namespace CafeSweetHomie
         }
 
         private void panel7_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel5_Paint(object sender, PaintEventArgs e)
         {
 
         }
