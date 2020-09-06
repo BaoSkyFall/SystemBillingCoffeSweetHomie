@@ -181,6 +181,20 @@
             this.lblDrinkCost = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.minusMojito = new FontAwesome.Sharp.IconButton();
+            this.plusMojito = new FontAwesome.Sharp.IconButton();
+            this.txtMojito = new System.Windows.Forms.TextBox();
+            this.chkMojito = new System.Windows.Forms.CheckBox();
+            this.minusDeepSea = new FontAwesome.Sharp.IconButton();
+            this.plusDeepSea = new FontAwesome.Sharp.IconButton();
+            this.txtDeepSea = new System.Windows.Forms.TextBox();
+            this.chkDeepSea = new System.Windows.Forms.CheckBox();
+            this.minusMagarita = new FontAwesome.Sharp.IconButton();
+            this.plusMagarita = new FontAwesome.Sharp.IconButton();
+            this.txtMagarita = new System.Windows.Forms.TextBox();
+            this.chkMagarita = new System.Windows.Forms.CheckBox();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
@@ -191,6 +205,54 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.panel13 = new System.Windows.Forms.Panel();
+            this.minusBanhTrang = new FontAwesome.Sharp.IconButton();
+            this.plusBanhTrang = new FontAwesome.Sharp.IconButton();
+            this.txtBanhTrang = new System.Windows.Forms.TextBox();
+            this.chkBanhTrang = new System.Windows.Forms.CheckBox();
+            this.minusDaHeo = new FontAwesome.Sharp.IconButton();
+            this.plusDaHeo = new FontAwesome.Sharp.IconButton();
+            this.txtDaHeo = new System.Windows.Forms.TextBox();
+            this.chkDaHeo = new System.Windows.Forms.CheckBox();
+            this.minusComChayKhoGa = new FontAwesome.Sharp.IconButton();
+            this.plusComChayKhoGa = new FontAwesome.Sharp.IconButton();
+            this.txtComChayKhoGa = new System.Windows.Forms.TextBox();
+            this.chkComChayKhoGa = new System.Windows.Forms.CheckBox();
+            this.minusKhoGaLaChanh = new FontAwesome.Sharp.IconButton();
+            this.plusKhoGaLaChanh = new FontAwesome.Sharp.IconButton();
+            this.txtKhoGaLaChanh = new System.Windows.Forms.TextBox();
+            this.chkKhoGaLaChanh = new System.Windows.Forms.CheckBox();
+            this.minusDauPhongRang = new FontAwesome.Sharp.IconButton();
+            this.plusDauPhongRang = new FontAwesome.Sharp.IconButton();
+            this.label17 = new System.Windows.Forms.Label();
+            this.txtDauPhongRang = new System.Windows.Forms.TextBox();
+            this.chkDauPhongRang = new System.Windows.Forms.CheckBox();
+            this.label20 = new System.Windows.Forms.Label();
+            this.chkUpdownBudweiser = new System.Windows.Forms.CheckBox();
+            this.chkUpdownStrongbow = new System.Windows.Forms.CheckBox();
+            this.chkUpdownTigerBac = new System.Windows.Forms.CheckBox();
+            this.minusUpdownBudweiser = new FontAwesome.Sharp.IconButton();
+            this.plusUpdownBudweiser = new FontAwesome.Sharp.IconButton();
+            this.minusUpdownStrongbow = new FontAwesome.Sharp.IconButton();
+            this.plusUpdownStrongbow = new FontAwesome.Sharp.IconButton();
+            this.minusUpdownTigerBac = new FontAwesome.Sharp.IconButton();
+            this.plusUpdownTigerBac = new FontAwesome.Sharp.IconButton();
+            this.txtUpdownBudweiser = new System.Windows.Forms.TextBox();
+            this.txtUpdownStrongbow = new System.Windows.Forms.TextBox();
+            this.txtUpdownTigerBac = new System.Windows.Forms.TextBox();
+            this.minusThuongBudweiser = new FontAwesome.Sharp.IconButton();
+            this.plusThuongBudweiser = new FontAwesome.Sharp.IconButton();
+            this.minusThuongStrongbow = new FontAwesome.Sharp.IconButton();
+            this.plusThuongStrongbow = new FontAwesome.Sharp.IconButton();
+            this.minusThuongTigerBac = new FontAwesome.Sharp.IconButton();
+            this.plusThuongTigerBac = new FontAwesome.Sharp.IconButton();
+            this.label19 = new System.Windows.Forms.Label();
+            this.txtThuongBudweiser = new System.Windows.Forms.TextBox();
+            this.txtThuongStrongbow = new System.Windows.Forms.TextBox();
+            this.txtThuongTigerBac = new System.Windows.Forms.TextBox();
+            this.chkThuongBudweiser = new System.Windows.Forms.CheckBox();
+            this.chkThuongStrongbow = new System.Windows.Forms.CheckBox();
+            this.chkThuongTigerBac = new System.Windows.Forms.CheckBox();
             this.panel12 = new System.Windows.Forms.Panel();
             this.minusTraHoaHongMatOng = new FontAwesome.Sharp.IconButton();
             this.plusTraHoaHongMatOng = new FontAwesome.Sharp.IconButton();
@@ -303,68 +365,6 @@
             this.minusPlanTrung = new FontAwesome.Sharp.IconButton();
             this.minusOreoTopping = new FontAwesome.Sharp.IconButton();
             this.plusPlanTrung = new FontAwesome.Sharp.IconButton();
-            this.panel13 = new System.Windows.Forms.Panel();
-            this.minusThuongBudweiser = new FontAwesome.Sharp.IconButton();
-            this.plusThuongBudweiser = new FontAwesome.Sharp.IconButton();
-            this.minusThuongStrongbow = new FontAwesome.Sharp.IconButton();
-            this.plusThuongStrongbow = new FontAwesome.Sharp.IconButton();
-            this.minusThuongTigerBac = new FontAwesome.Sharp.IconButton();
-            this.plusThuongTigerBac = new FontAwesome.Sharp.IconButton();
-            this.label19 = new System.Windows.Forms.Label();
-            this.txtThuongBudweiser = new System.Windows.Forms.TextBox();
-            this.txtThuongStrongbow = new System.Windows.Forms.TextBox();
-            this.txtThuongTigerBac = new System.Windows.Forms.TextBox();
-            this.chkThuongBudweiser = new System.Windows.Forms.CheckBox();
-            this.chkThuongStrongbow = new System.Windows.Forms.CheckBox();
-            this.chkThuongTigerBac = new System.Windows.Forms.CheckBox();
-            this.minusUpdownBudweiser = new FontAwesome.Sharp.IconButton();
-            this.plusUpdownBudweiser = new FontAwesome.Sharp.IconButton();
-            this.minusUpdownStrongbow = new FontAwesome.Sharp.IconButton();
-            this.plusUpdownStrongbow = new FontAwesome.Sharp.IconButton();
-            this.minusUpdownTigerBac = new FontAwesome.Sharp.IconButton();
-            this.plusUpdownTigerBac = new FontAwesome.Sharp.IconButton();
-            this.txtUpdownBudweiser = new System.Windows.Forms.TextBox();
-            this.txtUpdownStrongbow = new System.Windows.Forms.TextBox();
-            this.txtUpdownTigerBac = new System.Windows.Forms.TextBox();
-            this.chkUpdownBudweiser = new System.Windows.Forms.CheckBox();
-            this.chkUpdownStrongbow = new System.Windows.Forms.CheckBox();
-            this.chkUpdownTigerBac = new System.Windows.Forms.CheckBox();
-            this.label18 = new System.Windows.Forms.Label();
-            this.minusMojito = new FontAwesome.Sharp.IconButton();
-            this.plusMojito = new FontAwesome.Sharp.IconButton();
-            this.txtMojito = new System.Windows.Forms.TextBox();
-            this.chkMojito = new System.Windows.Forms.CheckBox();
-            this.minusDeepSea = new FontAwesome.Sharp.IconButton();
-            this.plusDeepSea = new FontAwesome.Sharp.IconButton();
-            this.txtDeepSea = new System.Windows.Forms.TextBox();
-            this.chkDeepSea = new System.Windows.Forms.CheckBox();
-            this.minusMagarita = new FontAwesome.Sharp.IconButton();
-            this.plusMagarita = new FontAwesome.Sharp.IconButton();
-            this.txtMagarita = new System.Windows.Forms.TextBox();
-            this.chkMagarita = new System.Windows.Forms.CheckBox();
-            this.label20 = new System.Windows.Forms.Label();
-            this.minusBanhTrang = new FontAwesome.Sharp.IconButton();
-            this.plusBanhTrang = new FontAwesome.Sharp.IconButton();
-            this.txtBanhTrang = new System.Windows.Forms.TextBox();
-            this.chkBanhTrang = new System.Windows.Forms.CheckBox();
-            this.minusDaHeo = new FontAwesome.Sharp.IconButton();
-            this.plusDaHeo = new FontAwesome.Sharp.IconButton();
-            this.txtDaHeo = new System.Windows.Forms.TextBox();
-            this.chkDaHeo = new System.Windows.Forms.CheckBox();
-            this.minusComChayKhoGa = new FontAwesome.Sharp.IconButton();
-            this.plusComChayKhoGa = new FontAwesome.Sharp.IconButton();
-            this.txtComChayKhoGa = new System.Windows.Forms.TextBox();
-            this.chkComChayKhoGa = new System.Windows.Forms.CheckBox();
-            this.minusKhoGaLaChanh = new FontAwesome.Sharp.IconButton();
-            this.plusKhoGaLaChanh = new FontAwesome.Sharp.IconButton();
-            this.txtKhoGaLaChanh = new System.Windows.Forms.TextBox();
-            this.chkKhoGaLaChanh = new System.Windows.Forms.CheckBox();
-            this.minusDauPhongRang = new FontAwesome.Sharp.IconButton();
-            this.plusDauPhongRang = new FontAwesome.Sharp.IconButton();
-            this.label17 = new System.Windows.Forms.Label();
-            this.txtDauPhongRang = new System.Windows.Forms.TextBox();
-            this.chkDauPhongRang = new System.Windows.Forms.CheckBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel4.SuspendLayout();
             this.panel8.SuspendLayout();
             this.panel9.SuspendLayout();
@@ -374,12 +374,12 @@
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel5.SuspendLayout();
             this.panel6.SuspendLayout();
+            this.panel13.SuspendLayout();
             this.panel12.SuspendLayout();
             this.panel11.SuspendLayout();
-            this.panel13.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // rtfReceipt
@@ -653,7 +653,7 @@
             // 
             // timer2
             // 
-            this.timer2.Interval = 60000;
+            this.timer2.Interval = 5000;
             this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
             // 
             // chkNuocEpCam
@@ -2543,6 +2543,198 @@
             this.panel7.TabIndex = 1;
             this.panel7.Paint += new System.Windows.Forms.PaintEventHandler(this.panel7_Paint);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::CafeSweetHomie.Properties.Resources.logo;
+            this.pictureBox1.Location = new System.Drawing.Point(1, 7);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(245, 283);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 150;
+            this.pictureBox1.TabStop = false;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("UTM Alexander", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label18.Location = new System.Drawing.Point(8, 294);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(65, 21);
+            this.label18.TabIndex = 149;
+            this.label18.Text = "CockTail";
+            // 
+            // minusMojito
+            // 
+            this.minusMojito.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.minusMojito.IconChar = FontAwesome.Sharp.IconChar.Minus;
+            this.minusMojito.IconColor = System.Drawing.Color.Black;
+            this.minusMojito.IconSize = 16;
+            this.minusMojito.Location = new System.Drawing.Point(107, 363);
+            this.minusMojito.Name = "minusMojito";
+            this.minusMojito.Rotation = 0D;
+            this.minusMojito.Size = new System.Drawing.Size(31, 23);
+            this.minusMojito.TabIndex = 148;
+            this.minusMojito.UseVisualStyleBackColor = true;
+            this.minusMojito.Click += new System.EventHandler(this.minus_Click);
+            // 
+            // plusMojito
+            // 
+            this.plusMojito.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.plusMojito.IconChar = FontAwesome.Sharp.IconChar.Plus;
+            this.plusMojito.IconColor = System.Drawing.Color.Black;
+            this.plusMojito.IconSize = 16;
+            this.plusMojito.Location = new System.Drawing.Point(179, 362);
+            this.plusMojito.Name = "plusMojito";
+            this.plusMojito.Rotation = 0D;
+            this.plusMojito.Size = new System.Drawing.Size(31, 24);
+            this.plusMojito.TabIndex = 147;
+            this.plusMojito.UseVisualStyleBackColor = true;
+            this.plusMojito.Click += new System.EventHandler(this.plus_Click);
+            // 
+            // txtMojito
+            // 
+            this.txtMojito.Enabled = false;
+            this.txtMojito.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMojito.Location = new System.Drawing.Point(140, 363);
+            this.txtMojito.Margin = new System.Windows.Forms.Padding(2);
+            this.txtMojito.Multiline = true;
+            this.txtMojito.Name = "txtMojito";
+            this.txtMojito.Size = new System.Drawing.Size(36, 23);
+            this.txtMojito.TabIndex = 146;
+            this.txtMojito.Text = "0";
+            this.txtMojito.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtMojito.TextChanged += new System.EventHandler(this.tinhTien);
+            // 
+            // chkMojito
+            // 
+            this.chkMojito.AutoSize = true;
+            this.chkMojito.Font = new System.Drawing.Font("UTM Alexander", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkMojito.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.chkMojito.Location = new System.Drawing.Point(10, 364);
+            this.chkMojito.Margin = new System.Windows.Forms.Padding(2);
+            this.chkMojito.Name = "chkMojito";
+            this.chkMojito.Size = new System.Drawing.Size(62, 22);
+            this.chkMojito.TabIndex = 145;
+            this.chkMojito.Text = "Mojito";
+            this.chkMojito.UseVisualStyleBackColor = true;
+            this.chkMojito.CheckedChanged += new System.EventHandler(this.checkedChangeLabel);
+            this.chkMojito.CheckStateChanged += new System.EventHandler(this.checkedChangeLabel);
+            // 
+            // minusDeepSea
+            // 
+            this.minusDeepSea.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.minusDeepSea.IconChar = FontAwesome.Sharp.IconChar.Minus;
+            this.minusDeepSea.IconColor = System.Drawing.Color.Black;
+            this.minusDeepSea.IconSize = 16;
+            this.minusDeepSea.Location = new System.Drawing.Point(107, 339);
+            this.minusDeepSea.Name = "minusDeepSea";
+            this.minusDeepSea.Rotation = 0D;
+            this.minusDeepSea.Size = new System.Drawing.Size(31, 23);
+            this.minusDeepSea.TabIndex = 144;
+            this.minusDeepSea.UseVisualStyleBackColor = true;
+            this.minusDeepSea.Click += new System.EventHandler(this.minus_Click);
+            // 
+            // plusDeepSea
+            // 
+            this.plusDeepSea.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.plusDeepSea.IconChar = FontAwesome.Sharp.IconChar.Plus;
+            this.plusDeepSea.IconColor = System.Drawing.Color.Black;
+            this.plusDeepSea.IconSize = 16;
+            this.plusDeepSea.Location = new System.Drawing.Point(179, 338);
+            this.plusDeepSea.Name = "plusDeepSea";
+            this.plusDeepSea.Rotation = 0D;
+            this.plusDeepSea.Size = new System.Drawing.Size(31, 24);
+            this.plusDeepSea.TabIndex = 143;
+            this.plusDeepSea.UseVisualStyleBackColor = true;
+            this.plusDeepSea.Click += new System.EventHandler(this.plus_Click);
+            // 
+            // txtDeepSea
+            // 
+            this.txtDeepSea.Enabled = false;
+            this.txtDeepSea.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDeepSea.Location = new System.Drawing.Point(141, 338);
+            this.txtDeepSea.Margin = new System.Windows.Forms.Padding(2);
+            this.txtDeepSea.Multiline = true;
+            this.txtDeepSea.Name = "txtDeepSea";
+            this.txtDeepSea.Size = new System.Drawing.Size(36, 23);
+            this.txtDeepSea.TabIndex = 142;
+            this.txtDeepSea.Text = "0";
+            this.txtDeepSea.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtDeepSea.TextChanged += new System.EventHandler(this.tinhTien);
+            // 
+            // chkDeepSea
+            // 
+            this.chkDeepSea.AutoSize = true;
+            this.chkDeepSea.Font = new System.Drawing.Font("UTM Alexander", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkDeepSea.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.chkDeepSea.Location = new System.Drawing.Point(9, 342);
+            this.chkDeepSea.Margin = new System.Windows.Forms.Padding(2);
+            this.chkDeepSea.Name = "chkDeepSea";
+            this.chkDeepSea.Size = new System.Drawing.Size(81, 22);
+            this.chkDeepSea.TabIndex = 141;
+            this.chkDeepSea.Text = "Deep Sea";
+            this.chkDeepSea.UseVisualStyleBackColor = true;
+            this.chkDeepSea.CheckedChanged += new System.EventHandler(this.checkedChangeLabel);
+            this.chkDeepSea.CheckStateChanged += new System.EventHandler(this.checkedChangeLabel);
+            // 
+            // minusMagarita
+            // 
+            this.minusMagarita.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.minusMagarita.IconChar = FontAwesome.Sharp.IconChar.Minus;
+            this.minusMagarita.IconColor = System.Drawing.Color.Black;
+            this.minusMagarita.IconSize = 16;
+            this.minusMagarita.Location = new System.Drawing.Point(107, 312);
+            this.minusMagarita.Name = "minusMagarita";
+            this.minusMagarita.Rotation = 0D;
+            this.minusMagarita.Size = new System.Drawing.Size(31, 23);
+            this.minusMagarita.TabIndex = 140;
+            this.minusMagarita.UseVisualStyleBackColor = true;
+            this.minusMagarita.Click += new System.EventHandler(this.minus_Click);
+            // 
+            // plusMagarita
+            // 
+            this.plusMagarita.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.plusMagarita.IconChar = FontAwesome.Sharp.IconChar.Plus;
+            this.plusMagarita.IconColor = System.Drawing.Color.Black;
+            this.plusMagarita.IconSize = 16;
+            this.plusMagarita.Location = new System.Drawing.Point(179, 312);
+            this.plusMagarita.Name = "plusMagarita";
+            this.plusMagarita.Rotation = 0D;
+            this.plusMagarita.Size = new System.Drawing.Size(31, 24);
+            this.plusMagarita.TabIndex = 139;
+            this.plusMagarita.UseVisualStyleBackColor = true;
+            this.plusMagarita.Click += new System.EventHandler(this.plus_Click);
+            // 
+            // txtMagarita
+            // 
+            this.txtMagarita.Enabled = false;
+            this.txtMagarita.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMagarita.Location = new System.Drawing.Point(141, 312);
+            this.txtMagarita.Margin = new System.Windows.Forms.Padding(2);
+            this.txtMagarita.Multiline = true;
+            this.txtMagarita.Name = "txtMagarita";
+            this.txtMagarita.Size = new System.Drawing.Size(36, 23);
+            this.txtMagarita.TabIndex = 138;
+            this.txtMagarita.Text = "0";
+            this.txtMagarita.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtMagarita.TextChanged += new System.EventHandler(this.tinhTien);
+            // 
+            // chkMagarita
+            // 
+            this.chkMagarita.AutoSize = true;
+            this.chkMagarita.Font = new System.Drawing.Font("UTM Alexander", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkMagarita.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.chkMagarita.Location = new System.Drawing.Point(9, 318);
+            this.chkMagarita.Margin = new System.Windows.Forms.Padding(2);
+            this.chkMagarita.Name = "chkMagarita";
+            this.chkMagarita.Size = new System.Drawing.Size(77, 22);
+            this.chkMagarita.TabIndex = 137;
+            this.chkMagarita.Text = "Magarita";
+            this.chkMagarita.UseVisualStyleBackColor = true;
+            this.chkMagarita.CheckedChanged += new System.EventHandler(this.checkedChangeLabel);
+            this.chkMagarita.CheckStateChanged += new System.EventHandler(this.checkedChangeLabel);
+            // 
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.Gray;
@@ -2679,6 +2871,721 @@
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(800, 619);
             this.panel6.TabIndex = 12;
+            // 
+            // panel13
+            // 
+            this.panel13.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.panel13.Controls.Add(this.minusBanhTrang);
+            this.panel13.Controls.Add(this.plusBanhTrang);
+            this.panel13.Controls.Add(this.txtBanhTrang);
+            this.panel13.Controls.Add(this.chkBanhTrang);
+            this.panel13.Controls.Add(this.minusDaHeo);
+            this.panel13.Controls.Add(this.plusDaHeo);
+            this.panel13.Controls.Add(this.txtDaHeo);
+            this.panel13.Controls.Add(this.chkDaHeo);
+            this.panel13.Controls.Add(this.minusComChayKhoGa);
+            this.panel13.Controls.Add(this.plusComChayKhoGa);
+            this.panel13.Controls.Add(this.txtComChayKhoGa);
+            this.panel13.Controls.Add(this.chkComChayKhoGa);
+            this.panel13.Controls.Add(this.minusKhoGaLaChanh);
+            this.panel13.Controls.Add(this.plusKhoGaLaChanh);
+            this.panel13.Controls.Add(this.txtKhoGaLaChanh);
+            this.panel13.Controls.Add(this.chkKhoGaLaChanh);
+            this.panel13.Controls.Add(this.minusDauPhongRang);
+            this.panel13.Controls.Add(this.plusDauPhongRang);
+            this.panel13.Controls.Add(this.label17);
+            this.panel13.Controls.Add(this.txtDauPhongRang);
+            this.panel13.Controls.Add(this.chkDauPhongRang);
+            this.panel13.Controls.Add(this.label20);
+            this.panel13.Controls.Add(this.chkUpdownBudweiser);
+            this.panel13.Controls.Add(this.chkUpdownStrongbow);
+            this.panel13.Controls.Add(this.chkUpdownTigerBac);
+            this.panel13.Controls.Add(this.minusUpdownBudweiser);
+            this.panel13.Controls.Add(this.plusUpdownBudweiser);
+            this.panel13.Controls.Add(this.minusUpdownStrongbow);
+            this.panel13.Controls.Add(this.plusUpdownStrongbow);
+            this.panel13.Controls.Add(this.minusUpdownTigerBac);
+            this.panel13.Controls.Add(this.plusUpdownTigerBac);
+            this.panel13.Controls.Add(this.txtUpdownBudweiser);
+            this.panel13.Controls.Add(this.txtUpdownStrongbow);
+            this.panel13.Controls.Add(this.txtUpdownTigerBac);
+            this.panel13.Controls.Add(this.minusThuongBudweiser);
+            this.panel13.Controls.Add(this.plusThuongBudweiser);
+            this.panel13.Controls.Add(this.minusThuongStrongbow);
+            this.panel13.Controls.Add(this.plusThuongStrongbow);
+            this.panel13.Controls.Add(this.minusThuongTigerBac);
+            this.panel13.Controls.Add(this.plusThuongTigerBac);
+            this.panel13.Controls.Add(this.label19);
+            this.panel13.Controls.Add(this.txtThuongBudweiser);
+            this.panel13.Controls.Add(this.txtThuongStrongbow);
+            this.panel13.Controls.Add(this.txtThuongTigerBac);
+            this.panel13.Controls.Add(this.chkThuongBudweiser);
+            this.panel13.Controls.Add(this.chkThuongStrongbow);
+            this.panel13.Controls.Add(this.chkThuongTigerBac);
+            this.panel13.Location = new System.Drawing.Point(3, 293);
+            this.panel13.Name = "panel13";
+            this.panel13.Size = new System.Drawing.Size(544, 199);
+            this.panel13.TabIndex = 26;
+            // 
+            // minusBanhTrang
+            // 
+            this.minusBanhTrang.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.minusBanhTrang.IconChar = FontAwesome.Sharp.IconChar.Minus;
+            this.minusBanhTrang.IconColor = System.Drawing.Color.Black;
+            this.minusBanhTrang.IconSize = 16;
+            this.minusBanhTrang.Location = new System.Drawing.Point(418, 140);
+            this.minusBanhTrang.Name = "minusBanhTrang";
+            this.minusBanhTrang.Rotation = 0D;
+            this.minusBanhTrang.Size = new System.Drawing.Size(31, 23);
+            this.minusBanhTrang.TabIndex = 161;
+            this.minusBanhTrang.UseVisualStyleBackColor = true;
+            this.minusBanhTrang.Click += new System.EventHandler(this.minus_Click);
+            // 
+            // plusBanhTrang
+            // 
+            this.plusBanhTrang.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.plusBanhTrang.IconChar = FontAwesome.Sharp.IconChar.Plus;
+            this.plusBanhTrang.IconColor = System.Drawing.Color.Black;
+            this.plusBanhTrang.IconSize = 16;
+            this.plusBanhTrang.Location = new System.Drawing.Point(491, 139);
+            this.plusBanhTrang.Name = "plusBanhTrang";
+            this.plusBanhTrang.Rotation = 0D;
+            this.plusBanhTrang.Size = new System.Drawing.Size(31, 24);
+            this.plusBanhTrang.TabIndex = 160;
+            this.plusBanhTrang.UseVisualStyleBackColor = true;
+            this.plusBanhTrang.Click += new System.EventHandler(this.plus_Click);
+            // 
+            // txtBanhTrang
+            // 
+            this.txtBanhTrang.Enabled = false;
+            this.txtBanhTrang.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBanhTrang.Location = new System.Drawing.Point(452, 140);
+            this.txtBanhTrang.Margin = new System.Windows.Forms.Padding(2);
+            this.txtBanhTrang.Multiline = true;
+            this.txtBanhTrang.Name = "txtBanhTrang";
+            this.txtBanhTrang.Size = new System.Drawing.Size(36, 23);
+            this.txtBanhTrang.TabIndex = 159;
+            this.txtBanhTrang.Text = "0";
+            this.txtBanhTrang.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtBanhTrang.TextChanged += new System.EventHandler(this.tinhTien);
+            // 
+            // chkBanhTrang
+            // 
+            this.chkBanhTrang.AutoSize = true;
+            this.chkBanhTrang.Font = new System.Drawing.Font("UTM Alexander", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBanhTrang.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.chkBanhTrang.Location = new System.Drawing.Point(279, 143);
+            this.chkBanhTrang.Margin = new System.Windows.Forms.Padding(2);
+            this.chkBanhTrang.Name = "chkBanhTrang";
+            this.chkBanhTrang.Size = new System.Drawing.Size(91, 22);
+            this.chkBanhTrang.TabIndex = 158;
+            this.chkBanhTrang.Text = "Bánh Tráng";
+            this.chkBanhTrang.UseVisualStyleBackColor = true;
+            this.chkBanhTrang.CheckedChanged += new System.EventHandler(this.checkedChangeLabel);
+            this.chkBanhTrang.CheckStateChanged += new System.EventHandler(this.checkedChangeLabel);
+            // 
+            // minusDaHeo
+            // 
+            this.minusDaHeo.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.minusDaHeo.IconChar = FontAwesome.Sharp.IconChar.Minus;
+            this.minusDaHeo.IconColor = System.Drawing.Color.Black;
+            this.minusDaHeo.IconSize = 16;
+            this.minusDaHeo.Location = new System.Drawing.Point(418, 116);
+            this.minusDaHeo.Name = "minusDaHeo";
+            this.minusDaHeo.Rotation = 0D;
+            this.minusDaHeo.Size = new System.Drawing.Size(31, 23);
+            this.minusDaHeo.TabIndex = 157;
+            this.minusDaHeo.UseVisualStyleBackColor = true;
+            this.minusDaHeo.Click += new System.EventHandler(this.minus_Click);
+            // 
+            // plusDaHeo
+            // 
+            this.plusDaHeo.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.plusDaHeo.IconChar = FontAwesome.Sharp.IconChar.Plus;
+            this.plusDaHeo.IconColor = System.Drawing.Color.Black;
+            this.plusDaHeo.IconSize = 16;
+            this.plusDaHeo.Location = new System.Drawing.Point(491, 115);
+            this.plusDaHeo.Name = "plusDaHeo";
+            this.plusDaHeo.Rotation = 0D;
+            this.plusDaHeo.Size = new System.Drawing.Size(31, 24);
+            this.plusDaHeo.TabIndex = 156;
+            this.plusDaHeo.UseVisualStyleBackColor = true;
+            this.plusDaHeo.Click += new System.EventHandler(this.plus_Click);
+            // 
+            // txtDaHeo
+            // 
+            this.txtDaHeo.Enabled = false;
+            this.txtDaHeo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDaHeo.Location = new System.Drawing.Point(452, 115);
+            this.txtDaHeo.Margin = new System.Windows.Forms.Padding(2);
+            this.txtDaHeo.Multiline = true;
+            this.txtDaHeo.Name = "txtDaHeo";
+            this.txtDaHeo.Size = new System.Drawing.Size(36, 23);
+            this.txtDaHeo.TabIndex = 155;
+            this.txtDaHeo.Text = "0";
+            this.txtDaHeo.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtDaHeo.TextChanged += new System.EventHandler(this.tinhTien);
+            // 
+            // chkDaHeo
+            // 
+            this.chkDaHeo.AutoSize = true;
+            this.chkDaHeo.Font = new System.Drawing.Font("UTM Alexander", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkDaHeo.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.chkDaHeo.Location = new System.Drawing.Point(279, 119);
+            this.chkDaHeo.Margin = new System.Windows.Forms.Padding(2);
+            this.chkDaHeo.Name = "chkDaHeo";
+            this.chkDaHeo.Size = new System.Drawing.Size(69, 22);
+            this.chkDaHeo.TabIndex = 154;
+            this.chkDaHeo.Text = "Da Heo";
+            this.chkDaHeo.UseVisualStyleBackColor = true;
+            this.chkDaHeo.CheckedChanged += new System.EventHandler(this.checkedChangeLabel);
+            this.chkDaHeo.CheckStateChanged += new System.EventHandler(this.checkedChangeLabel);
+            // 
+            // minusComChayKhoGa
+            // 
+            this.minusComChayKhoGa.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.minusComChayKhoGa.IconChar = FontAwesome.Sharp.IconChar.Minus;
+            this.minusComChayKhoGa.IconColor = System.Drawing.Color.Black;
+            this.minusComChayKhoGa.IconSize = 16;
+            this.minusComChayKhoGa.Location = new System.Drawing.Point(419, 72);
+            this.minusComChayKhoGa.Name = "minusComChayKhoGa";
+            this.minusComChayKhoGa.Rotation = 0D;
+            this.minusComChayKhoGa.Size = new System.Drawing.Size(31, 23);
+            this.minusComChayKhoGa.TabIndex = 153;
+            this.minusComChayKhoGa.UseVisualStyleBackColor = true;
+            this.minusComChayKhoGa.Click += new System.EventHandler(this.minus_Click);
+            // 
+            // plusComChayKhoGa
+            // 
+            this.plusComChayKhoGa.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.plusComChayKhoGa.IconChar = FontAwesome.Sharp.IconChar.Plus;
+            this.plusComChayKhoGa.IconColor = System.Drawing.Color.Black;
+            this.plusComChayKhoGa.IconSize = 16;
+            this.plusComChayKhoGa.Location = new System.Drawing.Point(491, 71);
+            this.plusComChayKhoGa.Name = "plusComChayKhoGa";
+            this.plusComChayKhoGa.Rotation = 0D;
+            this.plusComChayKhoGa.Size = new System.Drawing.Size(31, 24);
+            this.plusComChayKhoGa.TabIndex = 152;
+            this.plusComChayKhoGa.UseVisualStyleBackColor = true;
+            this.plusComChayKhoGa.Click += new System.EventHandler(this.plus_Click);
+            // 
+            // txtComChayKhoGa
+            // 
+            this.txtComChayKhoGa.Enabled = false;
+            this.txtComChayKhoGa.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtComChayKhoGa.Location = new System.Drawing.Point(453, 71);
+            this.txtComChayKhoGa.Margin = new System.Windows.Forms.Padding(2);
+            this.txtComChayKhoGa.Multiline = true;
+            this.txtComChayKhoGa.Name = "txtComChayKhoGa";
+            this.txtComChayKhoGa.Size = new System.Drawing.Size(36, 23);
+            this.txtComChayKhoGa.TabIndex = 151;
+            this.txtComChayKhoGa.Text = "0";
+            this.txtComChayKhoGa.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtComChayKhoGa.TextChanged += new System.EventHandler(this.tinhTien);
+            // 
+            // chkComChayKhoGa
+            // 
+            this.chkComChayKhoGa.AutoSize = true;
+            this.chkComChayKhoGa.Font = new System.Drawing.Font("UTM Alexander", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkComChayKhoGa.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.chkComChayKhoGa.Location = new System.Drawing.Point(279, 75);
+            this.chkComChayKhoGa.Margin = new System.Windows.Forms.Padding(2);
+            this.chkComChayKhoGa.Name = "chkComChayKhoGa";
+            this.chkComChayKhoGa.Size = new System.Drawing.Size(126, 22);
+            this.chkComChayKhoGa.TabIndex = 150;
+            this.chkComChayKhoGa.Text = "Cơm cháy khô gà";
+            this.chkComChayKhoGa.UseVisualStyleBackColor = true;
+            this.chkComChayKhoGa.CheckedChanged += new System.EventHandler(this.checkedChangeLabel);
+            this.chkComChayKhoGa.CheckStateChanged += new System.EventHandler(this.checkedChangeLabel);
+            // 
+            // minusKhoGaLaChanh
+            // 
+            this.minusKhoGaLaChanh.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.minusKhoGaLaChanh.IconChar = FontAwesome.Sharp.IconChar.Minus;
+            this.minusKhoGaLaChanh.IconColor = System.Drawing.Color.Black;
+            this.minusKhoGaLaChanh.IconSize = 16;
+            this.minusKhoGaLaChanh.Location = new System.Drawing.Point(419, 48);
+            this.minusKhoGaLaChanh.Name = "minusKhoGaLaChanh";
+            this.minusKhoGaLaChanh.Rotation = 0D;
+            this.minusKhoGaLaChanh.Size = new System.Drawing.Size(31, 23);
+            this.minusKhoGaLaChanh.TabIndex = 149;
+            this.minusKhoGaLaChanh.UseVisualStyleBackColor = true;
+            this.minusKhoGaLaChanh.Click += new System.EventHandler(this.minus_Click);
+            // 
+            // plusKhoGaLaChanh
+            // 
+            this.plusKhoGaLaChanh.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.plusKhoGaLaChanh.IconChar = FontAwesome.Sharp.IconChar.Plus;
+            this.plusKhoGaLaChanh.IconColor = System.Drawing.Color.Black;
+            this.plusKhoGaLaChanh.IconSize = 16;
+            this.plusKhoGaLaChanh.Location = new System.Drawing.Point(491, 47);
+            this.plusKhoGaLaChanh.Name = "plusKhoGaLaChanh";
+            this.plusKhoGaLaChanh.Rotation = 0D;
+            this.plusKhoGaLaChanh.Size = new System.Drawing.Size(31, 24);
+            this.plusKhoGaLaChanh.TabIndex = 148;
+            this.plusKhoGaLaChanh.UseVisualStyleBackColor = true;
+            this.plusKhoGaLaChanh.Click += new System.EventHandler(this.plus_Click);
+            // 
+            // txtKhoGaLaChanh
+            // 
+            this.txtKhoGaLaChanh.Enabled = false;
+            this.txtKhoGaLaChanh.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtKhoGaLaChanh.Location = new System.Drawing.Point(453, 47);
+            this.txtKhoGaLaChanh.Margin = new System.Windows.Forms.Padding(2);
+            this.txtKhoGaLaChanh.Multiline = true;
+            this.txtKhoGaLaChanh.Name = "txtKhoGaLaChanh";
+            this.txtKhoGaLaChanh.Size = new System.Drawing.Size(36, 23);
+            this.txtKhoGaLaChanh.TabIndex = 147;
+            this.txtKhoGaLaChanh.Text = "0";
+            this.txtKhoGaLaChanh.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtKhoGaLaChanh.TextChanged += new System.EventHandler(this.tinhTien);
+            // 
+            // chkKhoGaLaChanh
+            // 
+            this.chkKhoGaLaChanh.AutoSize = true;
+            this.chkKhoGaLaChanh.Font = new System.Drawing.Font("UTM Alexander", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkKhoGaLaChanh.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.chkKhoGaLaChanh.Location = new System.Drawing.Point(279, 51);
+            this.chkKhoGaLaChanh.Margin = new System.Windows.Forms.Padding(2);
+            this.chkKhoGaLaChanh.Name = "chkKhoGaLaChanh";
+            this.chkKhoGaLaChanh.Size = new System.Drawing.Size(119, 22);
+            this.chkKhoGaLaChanh.TabIndex = 146;
+            this.chkKhoGaLaChanh.Text = "Khô gà lá chanh";
+            this.chkKhoGaLaChanh.UseVisualStyleBackColor = true;
+            this.chkKhoGaLaChanh.CheckedChanged += new System.EventHandler(this.checkedChangeLabel);
+            this.chkKhoGaLaChanh.CheckStateChanged += new System.EventHandler(this.checkedChangeLabel);
+            // 
+            // minusDauPhongRang
+            // 
+            this.minusDauPhongRang.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.minusDauPhongRang.IconChar = FontAwesome.Sharp.IconChar.Minus;
+            this.minusDauPhongRang.IconColor = System.Drawing.Color.Black;
+            this.minusDauPhongRang.IconSize = 16;
+            this.minusDauPhongRang.Location = new System.Drawing.Point(419, 21);
+            this.minusDauPhongRang.Name = "minusDauPhongRang";
+            this.minusDauPhongRang.Rotation = 0D;
+            this.minusDauPhongRang.Size = new System.Drawing.Size(31, 23);
+            this.minusDauPhongRang.TabIndex = 145;
+            this.minusDauPhongRang.UseVisualStyleBackColor = true;
+            this.minusDauPhongRang.Click += new System.EventHandler(this.minus_Click);
+            // 
+            // plusDauPhongRang
+            // 
+            this.plusDauPhongRang.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.plusDauPhongRang.IconChar = FontAwesome.Sharp.IconChar.Plus;
+            this.plusDauPhongRang.IconColor = System.Drawing.Color.Black;
+            this.plusDauPhongRang.IconSize = 16;
+            this.plusDauPhongRang.Location = new System.Drawing.Point(491, 21);
+            this.plusDauPhongRang.Name = "plusDauPhongRang";
+            this.plusDauPhongRang.Rotation = 0D;
+            this.plusDauPhongRang.Size = new System.Drawing.Size(31, 24);
+            this.plusDauPhongRang.TabIndex = 144;
+            this.plusDauPhongRang.UseVisualStyleBackColor = true;
+            this.plusDauPhongRang.Click += new System.EventHandler(this.plus_Click);
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("UTM Alexander", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label17.Location = new System.Drawing.Point(280, 2);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(79, 21);
+            this.label17.TabIndex = 143;
+            this.label17.Text = "Đồ Ăn Vặt";
+            // 
+            // txtDauPhongRang
+            // 
+            this.txtDauPhongRang.Enabled = false;
+            this.txtDauPhongRang.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDauPhongRang.Location = new System.Drawing.Point(453, 21);
+            this.txtDauPhongRang.Margin = new System.Windows.Forms.Padding(2);
+            this.txtDauPhongRang.Multiline = true;
+            this.txtDauPhongRang.Name = "txtDauPhongRang";
+            this.txtDauPhongRang.Size = new System.Drawing.Size(36, 23);
+            this.txtDauPhongRang.TabIndex = 142;
+            this.txtDauPhongRang.Text = "0";
+            this.txtDauPhongRang.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtDauPhongRang.TextChanged += new System.EventHandler(this.tinhTien);
+            // 
+            // chkDauPhongRang
+            // 
+            this.chkDauPhongRang.AutoSize = true;
+            this.chkDauPhongRang.Font = new System.Drawing.Font("UTM Alexander", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkDauPhongRang.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.chkDauPhongRang.Location = new System.Drawing.Point(279, 25);
+            this.chkDauPhongRang.Margin = new System.Windows.Forms.Padding(2);
+            this.chkDauPhongRang.Name = "chkDauPhongRang";
+            this.chkDauPhongRang.Size = new System.Drawing.Size(117, 22);
+            this.chkDauPhongRang.TabIndex = 141;
+            this.chkDauPhongRang.Text = "Đậu phộng rang";
+            this.chkDauPhongRang.UseVisualStyleBackColor = true;
+            this.chkDauPhongRang.CheckedChanged += new System.EventHandler(this.checkedChangeLabel);
+            this.chkDauPhongRang.CheckStateChanged += new System.EventHandler(this.checkedChangeLabel);
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("UTM Alexander", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label20.Location = new System.Drawing.Point(3, 96);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(116, 21);
+            this.label20.TabIndex = 140;
+            this.label20.Text = "Beer + Updown";
+            // 
+            // chkUpdownBudweiser
+            // 
+            this.chkUpdownBudweiser.AutoSize = true;
+            this.chkUpdownBudweiser.Font = new System.Drawing.Font("UTM Alexander", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkUpdownBudweiser.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.chkUpdownBudweiser.Location = new System.Drawing.Point(6, 164);
+            this.chkUpdownBudweiser.Margin = new System.Windows.Forms.Padding(2);
+            this.chkUpdownBudweiser.Name = "chkUpdownBudweiser";
+            this.chkUpdownBudweiser.Size = new System.Drawing.Size(85, 22);
+            this.chkUpdownBudweiser.TabIndex = 138;
+            this.chkUpdownBudweiser.Text = "Budweiser";
+            this.chkUpdownBudweiser.UseVisualStyleBackColor = true;
+            this.chkUpdownBudweiser.CheckedChanged += new System.EventHandler(this.checkedChangeLabel);
+            this.chkUpdownBudweiser.CheckStateChanged += new System.EventHandler(this.checkedChangeLabel);
+            // 
+            // chkUpdownStrongbow
+            // 
+            this.chkUpdownStrongbow.AutoSize = true;
+            this.chkUpdownStrongbow.Font = new System.Drawing.Font("UTM Alexander", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkUpdownStrongbow.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.chkUpdownStrongbow.Location = new System.Drawing.Point(6, 141);
+            this.chkUpdownStrongbow.Margin = new System.Windows.Forms.Padding(2);
+            this.chkUpdownStrongbow.Name = "chkUpdownStrongbow";
+            this.chkUpdownStrongbow.Size = new System.Drawing.Size(86, 22);
+            this.chkUpdownStrongbow.TabIndex = 139;
+            this.chkUpdownStrongbow.Text = "Strongbow";
+            this.chkUpdownStrongbow.UseVisualStyleBackColor = true;
+            this.chkUpdownStrongbow.CheckedChanged += new System.EventHandler(this.checkedChangeLabel);
+            this.chkUpdownStrongbow.CheckStateChanged += new System.EventHandler(this.checkedChangeLabel);
+            // 
+            // chkUpdownTigerBac
+            // 
+            this.chkUpdownTigerBac.AutoSize = true;
+            this.chkUpdownTigerBac.Font = new System.Drawing.Font("UTM Alexander", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkUpdownTigerBac.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.chkUpdownTigerBac.Location = new System.Drawing.Point(6, 117);
+            this.chkUpdownTigerBac.Margin = new System.Windows.Forms.Padding(2);
+            this.chkUpdownTigerBac.Name = "chkUpdownTigerBac";
+            this.chkUpdownTigerBac.Size = new System.Drawing.Size(79, 22);
+            this.chkUpdownTigerBac.TabIndex = 137;
+            this.chkUpdownTigerBac.Text = "Tiger Bạc";
+            this.chkUpdownTigerBac.UseVisualStyleBackColor = true;
+            this.chkUpdownTigerBac.CheckedChanged += new System.EventHandler(this.checkedChangeLabel);
+            this.chkUpdownTigerBac.CheckStateChanged += new System.EventHandler(this.checkedChangeLabel);
+            // 
+            // minusUpdownBudweiser
+            // 
+            this.minusUpdownBudweiser.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.minusUpdownBudweiser.IconChar = FontAwesome.Sharp.IconChar.Minus;
+            this.minusUpdownBudweiser.IconColor = System.Drawing.Color.Black;
+            this.minusUpdownBudweiser.IconSize = 16;
+            this.minusUpdownBudweiser.Location = new System.Drawing.Point(162, 167);
+            this.minusUpdownBudweiser.Name = "minusUpdownBudweiser";
+            this.minusUpdownBudweiser.Rotation = 0D;
+            this.minusUpdownBudweiser.Size = new System.Drawing.Size(31, 23);
+            this.minusUpdownBudweiser.TabIndex = 33;
+            this.minusUpdownBudweiser.UseVisualStyleBackColor = true;
+            this.minusUpdownBudweiser.Click += new System.EventHandler(this.minus_Click);
+            // 
+            // plusUpdownBudweiser
+            // 
+            this.plusUpdownBudweiser.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.plusUpdownBudweiser.IconChar = FontAwesome.Sharp.IconChar.Plus;
+            this.plusUpdownBudweiser.IconColor = System.Drawing.Color.Black;
+            this.plusUpdownBudweiser.IconSize = 16;
+            this.plusUpdownBudweiser.Location = new System.Drawing.Point(238, 165);
+            this.plusUpdownBudweiser.Name = "plusUpdownBudweiser";
+            this.plusUpdownBudweiser.Rotation = 0D;
+            this.plusUpdownBudweiser.Size = new System.Drawing.Size(31, 26);
+            this.plusUpdownBudweiser.TabIndex = 32;
+            this.plusUpdownBudweiser.UseVisualStyleBackColor = true;
+            this.plusUpdownBudweiser.Click += new System.EventHandler(this.plus_Click);
+            // 
+            // minusUpdownStrongbow
+            // 
+            this.minusUpdownStrongbow.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.minusUpdownStrongbow.IconChar = FontAwesome.Sharp.IconChar.Minus;
+            this.minusUpdownStrongbow.IconColor = System.Drawing.Color.Black;
+            this.minusUpdownStrongbow.IconSize = 16;
+            this.minusUpdownStrongbow.Location = new System.Drawing.Point(162, 142);
+            this.minusUpdownStrongbow.Name = "minusUpdownStrongbow";
+            this.minusUpdownStrongbow.Rotation = 0D;
+            this.minusUpdownStrongbow.Size = new System.Drawing.Size(31, 23);
+            this.minusUpdownStrongbow.TabIndex = 31;
+            this.minusUpdownStrongbow.UseVisualStyleBackColor = true;
+            this.minusUpdownStrongbow.Click += new System.EventHandler(this.minus_Click);
+            // 
+            // plusUpdownStrongbow
+            // 
+            this.plusUpdownStrongbow.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.plusUpdownStrongbow.IconChar = FontAwesome.Sharp.IconChar.Plus;
+            this.plusUpdownStrongbow.IconColor = System.Drawing.Color.Black;
+            this.plusUpdownStrongbow.IconSize = 16;
+            this.plusUpdownStrongbow.Location = new System.Drawing.Point(238, 140);
+            this.plusUpdownStrongbow.Name = "plusUpdownStrongbow";
+            this.plusUpdownStrongbow.Rotation = 0D;
+            this.plusUpdownStrongbow.Size = new System.Drawing.Size(31, 23);
+            this.plusUpdownStrongbow.TabIndex = 30;
+            this.plusUpdownStrongbow.UseVisualStyleBackColor = true;
+            this.plusUpdownStrongbow.Click += new System.EventHandler(this.plus_Click);
+            // 
+            // minusUpdownTigerBac
+            // 
+            this.minusUpdownTigerBac.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.minusUpdownTigerBac.IconChar = FontAwesome.Sharp.IconChar.Minus;
+            this.minusUpdownTigerBac.IconColor = System.Drawing.Color.Black;
+            this.minusUpdownTigerBac.IconSize = 16;
+            this.minusUpdownTigerBac.Location = new System.Drawing.Point(162, 118);
+            this.minusUpdownTigerBac.Name = "minusUpdownTigerBac";
+            this.minusUpdownTigerBac.Rotation = 0D;
+            this.minusUpdownTigerBac.Size = new System.Drawing.Size(31, 23);
+            this.minusUpdownTigerBac.TabIndex = 29;
+            this.minusUpdownTigerBac.UseVisualStyleBackColor = true;
+            this.minusUpdownTigerBac.Click += new System.EventHandler(this.minus_Click);
+            // 
+            // plusUpdownTigerBac
+            // 
+            this.plusUpdownTigerBac.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.plusUpdownTigerBac.IconChar = FontAwesome.Sharp.IconChar.Plus;
+            this.plusUpdownTigerBac.IconColor = System.Drawing.Color.Black;
+            this.plusUpdownTigerBac.IconSize = 16;
+            this.plusUpdownTigerBac.Location = new System.Drawing.Point(238, 116);
+            this.plusUpdownTigerBac.Name = "plusUpdownTigerBac";
+            this.plusUpdownTigerBac.Rotation = 0D;
+            this.plusUpdownTigerBac.Size = new System.Drawing.Size(31, 23);
+            this.plusUpdownTigerBac.TabIndex = 28;
+            this.plusUpdownTigerBac.UseVisualStyleBackColor = true;
+            this.plusUpdownTigerBac.Click += new System.EventHandler(this.plus_Click);
+            // 
+            // txtUpdownBudweiser
+            // 
+            this.txtUpdownBudweiser.Enabled = false;
+            this.txtUpdownBudweiser.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUpdownBudweiser.Location = new System.Drawing.Point(197, 165);
+            this.txtUpdownBudweiser.Margin = new System.Windows.Forms.Padding(2);
+            this.txtUpdownBudweiser.Multiline = true;
+            this.txtUpdownBudweiser.Name = "txtUpdownBudweiser";
+            this.txtUpdownBudweiser.Size = new System.Drawing.Size(36, 25);
+            this.txtUpdownBudweiser.TabIndex = 26;
+            this.txtUpdownBudweiser.Text = "0";
+            this.txtUpdownBudweiser.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtUpdownBudweiser.TextChanged += new System.EventHandler(this.tinhTien);
+            // 
+            // txtUpdownStrongbow
+            // 
+            this.txtUpdownStrongbow.Enabled = false;
+            this.txtUpdownStrongbow.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUpdownStrongbow.Location = new System.Drawing.Point(197, 142);
+            this.txtUpdownStrongbow.Margin = new System.Windows.Forms.Padding(2);
+            this.txtUpdownStrongbow.Multiline = true;
+            this.txtUpdownStrongbow.Name = "txtUpdownStrongbow";
+            this.txtUpdownStrongbow.Size = new System.Drawing.Size(36, 25);
+            this.txtUpdownStrongbow.TabIndex = 27;
+            this.txtUpdownStrongbow.Text = "0";
+            this.txtUpdownStrongbow.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtUpdownStrongbow.TextChanged += new System.EventHandler(this.tinhTien);
+            // 
+            // txtUpdownTigerBac
+            // 
+            this.txtUpdownTigerBac.Enabled = false;
+            this.txtUpdownTigerBac.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUpdownTigerBac.Location = new System.Drawing.Point(197, 118);
+            this.txtUpdownTigerBac.Margin = new System.Windows.Forms.Padding(2);
+            this.txtUpdownTigerBac.Multiline = true;
+            this.txtUpdownTigerBac.Name = "txtUpdownTigerBac";
+            this.txtUpdownTigerBac.Size = new System.Drawing.Size(36, 25);
+            this.txtUpdownTigerBac.TabIndex = 25;
+            this.txtUpdownTigerBac.Text = "0";
+            this.txtUpdownTigerBac.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtUpdownTigerBac.TextChanged += new System.EventHandler(this.tinhTien);
+            // 
+            // minusThuongBudweiser
+            // 
+            this.minusThuongBudweiser.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.minusThuongBudweiser.IconChar = FontAwesome.Sharp.IconChar.Minus;
+            this.minusThuongBudweiser.IconColor = System.Drawing.Color.Black;
+            this.minusThuongBudweiser.IconSize = 16;
+            this.minusThuongBudweiser.Location = new System.Drawing.Point(163, 70);
+            this.minusThuongBudweiser.Name = "minusThuongBudweiser";
+            this.minusThuongBudweiser.Rotation = 0D;
+            this.minusThuongBudweiser.Size = new System.Drawing.Size(31, 23);
+            this.minusThuongBudweiser.TabIndex = 24;
+            this.minusThuongBudweiser.UseVisualStyleBackColor = true;
+            this.minusThuongBudweiser.Click += new System.EventHandler(this.minus_Click);
+            // 
+            // plusThuongBudweiser
+            // 
+            this.plusThuongBudweiser.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.plusThuongBudweiser.IconChar = FontAwesome.Sharp.IconChar.Plus;
+            this.plusThuongBudweiser.IconColor = System.Drawing.Color.Black;
+            this.plusThuongBudweiser.IconSize = 16;
+            this.plusThuongBudweiser.Location = new System.Drawing.Point(239, 68);
+            this.plusThuongBudweiser.Name = "plusThuongBudweiser";
+            this.plusThuongBudweiser.Rotation = 0D;
+            this.plusThuongBudweiser.Size = new System.Drawing.Size(31, 26);
+            this.plusThuongBudweiser.TabIndex = 23;
+            this.plusThuongBudweiser.UseVisualStyleBackColor = true;
+            this.plusThuongBudweiser.Click += new System.EventHandler(this.plus_Click);
+            // 
+            // minusThuongStrongbow
+            // 
+            this.minusThuongStrongbow.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.minusThuongStrongbow.IconChar = FontAwesome.Sharp.IconChar.Minus;
+            this.minusThuongStrongbow.IconColor = System.Drawing.Color.Black;
+            this.minusThuongStrongbow.IconSize = 16;
+            this.minusThuongStrongbow.Location = new System.Drawing.Point(163, 45);
+            this.minusThuongStrongbow.Name = "minusThuongStrongbow";
+            this.minusThuongStrongbow.Rotation = 0D;
+            this.minusThuongStrongbow.Size = new System.Drawing.Size(31, 24);
+            this.minusThuongStrongbow.TabIndex = 22;
+            this.minusThuongStrongbow.UseVisualStyleBackColor = true;
+            this.minusThuongStrongbow.Click += new System.EventHandler(this.minus_Click);
+            // 
+            // plusThuongStrongbow
+            // 
+            this.plusThuongStrongbow.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.plusThuongStrongbow.IconChar = FontAwesome.Sharp.IconChar.Plus;
+            this.plusThuongStrongbow.IconColor = System.Drawing.Color.Black;
+            this.plusThuongStrongbow.IconSize = 16;
+            this.plusThuongStrongbow.Location = new System.Drawing.Point(239, 43);
+            this.plusThuongStrongbow.Name = "plusThuongStrongbow";
+            this.plusThuongStrongbow.Rotation = 0D;
+            this.plusThuongStrongbow.Size = new System.Drawing.Size(31, 23);
+            this.plusThuongStrongbow.TabIndex = 21;
+            this.plusThuongStrongbow.UseVisualStyleBackColor = true;
+            this.plusThuongStrongbow.Click += new System.EventHandler(this.plus_Click);
+            // 
+            // minusThuongTigerBac
+            // 
+            this.minusThuongTigerBac.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.minusThuongTigerBac.IconChar = FontAwesome.Sharp.IconChar.Minus;
+            this.minusThuongTigerBac.IconColor = System.Drawing.Color.Black;
+            this.minusThuongTigerBac.IconSize = 16;
+            this.minusThuongTigerBac.Location = new System.Drawing.Point(163, 21);
+            this.minusThuongTigerBac.Name = "minusThuongTigerBac";
+            this.minusThuongTigerBac.Rotation = 0D;
+            this.minusThuongTigerBac.Size = new System.Drawing.Size(31, 23);
+            this.minusThuongTigerBac.TabIndex = 20;
+            this.minusThuongTigerBac.UseVisualStyleBackColor = true;
+            this.minusThuongTigerBac.Click += new System.EventHandler(this.minus_Click);
+            // 
+            // plusThuongTigerBac
+            // 
+            this.plusThuongTigerBac.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.plusThuongTigerBac.IconChar = FontAwesome.Sharp.IconChar.Plus;
+            this.plusThuongTigerBac.IconColor = System.Drawing.Color.Black;
+            this.plusThuongTigerBac.IconSize = 16;
+            this.plusThuongTigerBac.Location = new System.Drawing.Point(239, 19);
+            this.plusThuongTigerBac.Name = "plusThuongTigerBac";
+            this.plusThuongTigerBac.Rotation = 0D;
+            this.plusThuongTigerBac.Size = new System.Drawing.Size(31, 23);
+            this.plusThuongTigerBac.TabIndex = 19;
+            this.plusThuongTigerBac.UseVisualStyleBackColor = true;
+            this.plusThuongTigerBac.Click += new System.EventHandler(this.plus_Click);
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("UTM Alexander", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label19.Location = new System.Drawing.Point(2, 2);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(96, 21);
+            this.label19.TabIndex = 18;
+            this.label19.Text = "Beer Thường";
+            // 
+            // txtThuongBudweiser
+            // 
+            this.txtThuongBudweiser.Enabled = false;
+            this.txtThuongBudweiser.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtThuongBudweiser.Location = new System.Drawing.Point(198, 68);
+            this.txtThuongBudweiser.Margin = new System.Windows.Forms.Padding(2);
+            this.txtThuongBudweiser.Multiline = true;
+            this.txtThuongBudweiser.Name = "txtThuongBudweiser";
+            this.txtThuongBudweiser.Size = new System.Drawing.Size(36, 25);
+            this.txtThuongBudweiser.TabIndex = 16;
+            this.txtThuongBudweiser.Text = "0";
+            this.txtThuongBudweiser.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtThuongBudweiser.TextChanged += new System.EventHandler(this.tinhTien);
+            // 
+            // txtThuongStrongbow
+            // 
+            this.txtThuongStrongbow.Enabled = false;
+            this.txtThuongStrongbow.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtThuongStrongbow.Location = new System.Drawing.Point(198, 45);
+            this.txtThuongStrongbow.Margin = new System.Windows.Forms.Padding(2);
+            this.txtThuongStrongbow.Multiline = true;
+            this.txtThuongStrongbow.Name = "txtThuongStrongbow";
+            this.txtThuongStrongbow.Size = new System.Drawing.Size(36, 25);
+            this.txtThuongStrongbow.TabIndex = 17;
+            this.txtThuongStrongbow.Text = "0";
+            this.txtThuongStrongbow.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtThuongStrongbow.TextChanged += new System.EventHandler(this.tinhTien);
+            // 
+            // txtThuongTigerBac
+            // 
+            this.txtThuongTigerBac.Enabled = false;
+            this.txtThuongTigerBac.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtThuongTigerBac.Location = new System.Drawing.Point(198, 21);
+            this.txtThuongTigerBac.Margin = new System.Windows.Forms.Padding(2);
+            this.txtThuongTigerBac.Multiline = true;
+            this.txtThuongTigerBac.Name = "txtThuongTigerBac";
+            this.txtThuongTigerBac.Size = new System.Drawing.Size(36, 25);
+            this.txtThuongTigerBac.TabIndex = 15;
+            this.txtThuongTigerBac.Text = "0";
+            this.txtThuongTigerBac.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtThuongTigerBac.TextChanged += new System.EventHandler(this.tinhTien);
+            // 
+            // chkThuongBudweiser
+            // 
+            this.chkThuongBudweiser.AutoSize = true;
+            this.chkThuongBudweiser.Font = new System.Drawing.Font("UTM Alexander", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkThuongBudweiser.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.chkThuongBudweiser.Location = new System.Drawing.Point(6, 72);
+            this.chkThuongBudweiser.Margin = new System.Windows.Forms.Padding(2);
+            this.chkThuongBudweiser.Name = "chkThuongBudweiser";
+            this.chkThuongBudweiser.Size = new System.Drawing.Size(85, 22);
+            this.chkThuongBudweiser.TabIndex = 13;
+            this.chkThuongBudweiser.Text = "Budweiser";
+            this.chkThuongBudweiser.UseVisualStyleBackColor = true;
+            this.chkThuongBudweiser.CheckedChanged += new System.EventHandler(this.checkedChangeLabel);
+            this.chkThuongBudweiser.CheckStateChanged += new System.EventHandler(this.checkedChangeLabel);
+            // 
+            // chkThuongStrongbow
+            // 
+            this.chkThuongStrongbow.AutoSize = true;
+            this.chkThuongStrongbow.Font = new System.Drawing.Font("UTM Alexander", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkThuongStrongbow.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.chkThuongStrongbow.Location = new System.Drawing.Point(6, 49);
+            this.chkThuongStrongbow.Margin = new System.Windows.Forms.Padding(2);
+            this.chkThuongStrongbow.Name = "chkThuongStrongbow";
+            this.chkThuongStrongbow.Size = new System.Drawing.Size(86, 22);
+            this.chkThuongStrongbow.TabIndex = 14;
+            this.chkThuongStrongbow.Text = "Strongbow";
+            this.chkThuongStrongbow.UseVisualStyleBackColor = true;
+            this.chkThuongStrongbow.CheckedChanged += new System.EventHandler(this.checkedChangeLabel);
+            this.chkThuongStrongbow.CheckStateChanged += new System.EventHandler(this.checkedChangeLabel);
+            // 
+            // chkThuongTigerBac
+            // 
+            this.chkThuongTigerBac.AutoSize = true;
+            this.chkThuongTigerBac.Font = new System.Drawing.Font("UTM Alexander", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkThuongTigerBac.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.chkThuongTigerBac.Location = new System.Drawing.Point(6, 25);
+            this.chkThuongTigerBac.Margin = new System.Windows.Forms.Padding(2);
+            this.chkThuongTigerBac.Name = "chkThuongTigerBac";
+            this.chkThuongTigerBac.Size = new System.Drawing.Size(79, 22);
+            this.chkThuongTigerBac.TabIndex = 12;
+            this.chkThuongTigerBac.Text = "Tiger Bạc";
+            this.chkThuongTigerBac.UseVisualStyleBackColor = true;
+            this.chkThuongTigerBac.CheckedChanged += new System.EventHandler(this.checkedChangeLabel);
+            this.chkThuongTigerBac.CheckStateChanged += new System.EventHandler(this.checkedChangeLabel);
             // 
             // panel12
             // 
@@ -4341,913 +5248,6 @@
             this.plusPlanTrung.UseVisualStyleBackColor = true;
             this.plusPlanTrung.Click += new System.EventHandler(this.plus_Click);
             // 
-            // panel13
-            // 
-            this.panel13.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.panel13.Controls.Add(this.minusBanhTrang);
-            this.panel13.Controls.Add(this.plusBanhTrang);
-            this.panel13.Controls.Add(this.txtBanhTrang);
-            this.panel13.Controls.Add(this.chkBanhTrang);
-            this.panel13.Controls.Add(this.minusDaHeo);
-            this.panel13.Controls.Add(this.plusDaHeo);
-            this.panel13.Controls.Add(this.txtDaHeo);
-            this.panel13.Controls.Add(this.chkDaHeo);
-            this.panel13.Controls.Add(this.minusComChayKhoGa);
-            this.panel13.Controls.Add(this.plusComChayKhoGa);
-            this.panel13.Controls.Add(this.txtComChayKhoGa);
-            this.panel13.Controls.Add(this.chkComChayKhoGa);
-            this.panel13.Controls.Add(this.minusKhoGaLaChanh);
-            this.panel13.Controls.Add(this.plusKhoGaLaChanh);
-            this.panel13.Controls.Add(this.txtKhoGaLaChanh);
-            this.panel13.Controls.Add(this.chkKhoGaLaChanh);
-            this.panel13.Controls.Add(this.minusDauPhongRang);
-            this.panel13.Controls.Add(this.plusDauPhongRang);
-            this.panel13.Controls.Add(this.label17);
-            this.panel13.Controls.Add(this.txtDauPhongRang);
-            this.panel13.Controls.Add(this.chkDauPhongRang);
-            this.panel13.Controls.Add(this.label20);
-            this.panel13.Controls.Add(this.chkUpdownBudweiser);
-            this.panel13.Controls.Add(this.chkUpdownStrongbow);
-            this.panel13.Controls.Add(this.chkUpdownTigerBac);
-            this.panel13.Controls.Add(this.minusUpdownBudweiser);
-            this.panel13.Controls.Add(this.plusUpdownBudweiser);
-            this.panel13.Controls.Add(this.minusUpdownStrongbow);
-            this.panel13.Controls.Add(this.plusUpdownStrongbow);
-            this.panel13.Controls.Add(this.minusUpdownTigerBac);
-            this.panel13.Controls.Add(this.plusUpdownTigerBac);
-            this.panel13.Controls.Add(this.txtUpdownBudweiser);
-            this.panel13.Controls.Add(this.txtUpdownStrongbow);
-            this.panel13.Controls.Add(this.txtUpdownTigerBac);
-            this.panel13.Controls.Add(this.minusThuongBudweiser);
-            this.panel13.Controls.Add(this.plusThuongBudweiser);
-            this.panel13.Controls.Add(this.minusThuongStrongbow);
-            this.panel13.Controls.Add(this.plusThuongStrongbow);
-            this.panel13.Controls.Add(this.minusThuongTigerBac);
-            this.panel13.Controls.Add(this.plusThuongTigerBac);
-            this.panel13.Controls.Add(this.label19);
-            this.panel13.Controls.Add(this.txtThuongBudweiser);
-            this.panel13.Controls.Add(this.txtThuongStrongbow);
-            this.panel13.Controls.Add(this.txtThuongTigerBac);
-            this.panel13.Controls.Add(this.chkThuongBudweiser);
-            this.panel13.Controls.Add(this.chkThuongStrongbow);
-            this.panel13.Controls.Add(this.chkThuongTigerBac);
-            this.panel13.Location = new System.Drawing.Point(3, 293);
-            this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(544, 199);
-            this.panel13.TabIndex = 26;
-            // 
-            // minusThuongBudweiser
-            // 
-            this.minusThuongBudweiser.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.minusThuongBudweiser.IconChar = FontAwesome.Sharp.IconChar.Minus;
-            this.minusThuongBudweiser.IconColor = System.Drawing.Color.Black;
-            this.minusThuongBudweiser.IconSize = 16;
-            this.minusThuongBudweiser.Location = new System.Drawing.Point(163, 70);
-            this.minusThuongBudweiser.Name = "minusThuongBudweiser";
-            this.minusThuongBudweiser.Rotation = 0D;
-            this.minusThuongBudweiser.Size = new System.Drawing.Size(31, 23);
-            this.minusThuongBudweiser.TabIndex = 24;
-            this.minusThuongBudweiser.UseVisualStyleBackColor = true;
-            this.minusThuongBudweiser.Click += new System.EventHandler(this.minus_Click);
-            // 
-            // plusThuongBudweiser
-            // 
-            this.plusThuongBudweiser.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.plusThuongBudweiser.IconChar = FontAwesome.Sharp.IconChar.Plus;
-            this.plusThuongBudweiser.IconColor = System.Drawing.Color.Black;
-            this.plusThuongBudweiser.IconSize = 16;
-            this.plusThuongBudweiser.Location = new System.Drawing.Point(239, 68);
-            this.plusThuongBudweiser.Name = "plusThuongBudweiser";
-            this.plusThuongBudweiser.Rotation = 0D;
-            this.plusThuongBudweiser.Size = new System.Drawing.Size(31, 26);
-            this.plusThuongBudweiser.TabIndex = 23;
-            this.plusThuongBudweiser.UseVisualStyleBackColor = true;
-            this.plusThuongBudweiser.Click += new System.EventHandler(this.plus_Click);
-            // 
-            // minusThuongStrongbow
-            // 
-            this.minusThuongStrongbow.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.minusThuongStrongbow.IconChar = FontAwesome.Sharp.IconChar.Minus;
-            this.minusThuongStrongbow.IconColor = System.Drawing.Color.Black;
-            this.minusThuongStrongbow.IconSize = 16;
-            this.minusThuongStrongbow.Location = new System.Drawing.Point(163, 45);
-            this.minusThuongStrongbow.Name = "minusThuongStrongbow";
-            this.minusThuongStrongbow.Rotation = 0D;
-            this.minusThuongStrongbow.Size = new System.Drawing.Size(31, 24);
-            this.minusThuongStrongbow.TabIndex = 22;
-            this.minusThuongStrongbow.UseVisualStyleBackColor = true;
-            this.minusThuongStrongbow.Click += new System.EventHandler(this.minus_Click);
-            // 
-            // plusThuongStrongbow
-            // 
-            this.plusThuongStrongbow.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.plusThuongStrongbow.IconChar = FontAwesome.Sharp.IconChar.Plus;
-            this.plusThuongStrongbow.IconColor = System.Drawing.Color.Black;
-            this.plusThuongStrongbow.IconSize = 16;
-            this.plusThuongStrongbow.Location = new System.Drawing.Point(239, 43);
-            this.plusThuongStrongbow.Name = "plusThuongStrongbow";
-            this.plusThuongStrongbow.Rotation = 0D;
-            this.plusThuongStrongbow.Size = new System.Drawing.Size(31, 23);
-            this.plusThuongStrongbow.TabIndex = 21;
-            this.plusThuongStrongbow.UseVisualStyleBackColor = true;
-            this.plusThuongStrongbow.Click += new System.EventHandler(this.plus_Click);
-            // 
-            // minusThuongTigerBac
-            // 
-            this.minusThuongTigerBac.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.minusThuongTigerBac.IconChar = FontAwesome.Sharp.IconChar.Minus;
-            this.minusThuongTigerBac.IconColor = System.Drawing.Color.Black;
-            this.minusThuongTigerBac.IconSize = 16;
-            this.minusThuongTigerBac.Location = new System.Drawing.Point(163, 21);
-            this.minusThuongTigerBac.Name = "minusThuongTigerBac";
-            this.minusThuongTigerBac.Rotation = 0D;
-            this.minusThuongTigerBac.Size = new System.Drawing.Size(31, 23);
-            this.minusThuongTigerBac.TabIndex = 20;
-            this.minusThuongTigerBac.UseVisualStyleBackColor = true;
-            this.minusThuongTigerBac.Click += new System.EventHandler(this.minus_Click);
-            // 
-            // plusThuongTigerBac
-            // 
-            this.plusThuongTigerBac.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.plusThuongTigerBac.IconChar = FontAwesome.Sharp.IconChar.Plus;
-            this.plusThuongTigerBac.IconColor = System.Drawing.Color.Black;
-            this.plusThuongTigerBac.IconSize = 16;
-            this.plusThuongTigerBac.Location = new System.Drawing.Point(239, 19);
-            this.plusThuongTigerBac.Name = "plusThuongTigerBac";
-            this.plusThuongTigerBac.Rotation = 0D;
-            this.plusThuongTigerBac.Size = new System.Drawing.Size(31, 23);
-            this.plusThuongTigerBac.TabIndex = 19;
-            this.plusThuongTigerBac.UseVisualStyleBackColor = true;
-            this.plusThuongTigerBac.Click += new System.EventHandler(this.plus_Click);
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("UTM Alexander", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label19.Location = new System.Drawing.Point(2, 2);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(96, 21);
-            this.label19.TabIndex = 18;
-            this.label19.Text = "Beer Thường";
-            // 
-            // txtThuongBudweiser
-            // 
-            this.txtThuongBudweiser.Enabled = false;
-            this.txtThuongBudweiser.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtThuongBudweiser.Location = new System.Drawing.Point(198, 68);
-            this.txtThuongBudweiser.Margin = new System.Windows.Forms.Padding(2);
-            this.txtThuongBudweiser.Multiline = true;
-            this.txtThuongBudweiser.Name = "txtThuongBudweiser";
-            this.txtThuongBudweiser.Size = new System.Drawing.Size(36, 25);
-            this.txtThuongBudweiser.TabIndex = 16;
-            this.txtThuongBudweiser.Text = "0";
-            this.txtThuongBudweiser.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtThuongBudweiser.TextChanged += new System.EventHandler(this.tinhTien);
-            // 
-            // txtThuongStrongbow
-            // 
-            this.txtThuongStrongbow.Enabled = false;
-            this.txtThuongStrongbow.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtThuongStrongbow.Location = new System.Drawing.Point(198, 45);
-            this.txtThuongStrongbow.Margin = new System.Windows.Forms.Padding(2);
-            this.txtThuongStrongbow.Multiline = true;
-            this.txtThuongStrongbow.Name = "txtThuongStrongbow";
-            this.txtThuongStrongbow.Size = new System.Drawing.Size(36, 25);
-            this.txtThuongStrongbow.TabIndex = 17;
-            this.txtThuongStrongbow.Text = "0";
-            this.txtThuongStrongbow.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtThuongStrongbow.TextChanged += new System.EventHandler(this.tinhTien);
-            // 
-            // txtThuongTigerBac
-            // 
-            this.txtThuongTigerBac.Enabled = false;
-            this.txtThuongTigerBac.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtThuongTigerBac.Location = new System.Drawing.Point(198, 21);
-            this.txtThuongTigerBac.Margin = new System.Windows.Forms.Padding(2);
-            this.txtThuongTigerBac.Multiline = true;
-            this.txtThuongTigerBac.Name = "txtThuongTigerBac";
-            this.txtThuongTigerBac.Size = new System.Drawing.Size(36, 25);
-            this.txtThuongTigerBac.TabIndex = 15;
-            this.txtThuongTigerBac.Text = "0";
-            this.txtThuongTigerBac.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtThuongTigerBac.TextChanged += new System.EventHandler(this.tinhTien);
-            // 
-            // chkThuongBudweiser
-            // 
-            this.chkThuongBudweiser.AutoSize = true;
-            this.chkThuongBudweiser.Font = new System.Drawing.Font("UTM Alexander", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkThuongBudweiser.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.chkThuongBudweiser.Location = new System.Drawing.Point(6, 72);
-            this.chkThuongBudweiser.Margin = new System.Windows.Forms.Padding(2);
-            this.chkThuongBudweiser.Name = "chkThuongBudweiser";
-            this.chkThuongBudweiser.Size = new System.Drawing.Size(85, 22);
-            this.chkThuongBudweiser.TabIndex = 13;
-            this.chkThuongBudweiser.Text = "Budweiser";
-            this.chkThuongBudweiser.UseVisualStyleBackColor = true;
-            this.chkThuongBudweiser.CheckedChanged += new System.EventHandler(this.checkedChangeLabel);
-            this.chkThuongBudweiser.CheckStateChanged += new System.EventHandler(this.checkedChangeLabel);
-            // 
-            // chkThuongStrongbow
-            // 
-            this.chkThuongStrongbow.AutoSize = true;
-            this.chkThuongStrongbow.Font = new System.Drawing.Font("UTM Alexander", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkThuongStrongbow.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.chkThuongStrongbow.Location = new System.Drawing.Point(6, 49);
-            this.chkThuongStrongbow.Margin = new System.Windows.Forms.Padding(2);
-            this.chkThuongStrongbow.Name = "chkThuongStrongbow";
-            this.chkThuongStrongbow.Size = new System.Drawing.Size(86, 22);
-            this.chkThuongStrongbow.TabIndex = 14;
-            this.chkThuongStrongbow.Text = "Strongbow";
-            this.chkThuongStrongbow.UseVisualStyleBackColor = true;
-            this.chkThuongStrongbow.CheckedChanged += new System.EventHandler(this.checkedChangeLabel);
-            this.chkThuongStrongbow.CheckStateChanged += new System.EventHandler(this.checkedChangeLabel);
-            // 
-            // chkThuongTigerBac
-            // 
-            this.chkThuongTigerBac.AutoSize = true;
-            this.chkThuongTigerBac.Font = new System.Drawing.Font("UTM Alexander", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkThuongTigerBac.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.chkThuongTigerBac.Location = new System.Drawing.Point(6, 25);
-            this.chkThuongTigerBac.Margin = new System.Windows.Forms.Padding(2);
-            this.chkThuongTigerBac.Name = "chkThuongTigerBac";
-            this.chkThuongTigerBac.Size = new System.Drawing.Size(79, 22);
-            this.chkThuongTigerBac.TabIndex = 12;
-            this.chkThuongTigerBac.Text = "Tiger Bạc";
-            this.chkThuongTigerBac.UseVisualStyleBackColor = true;
-            this.chkThuongTigerBac.CheckedChanged += new System.EventHandler(this.checkedChangeLabel);
-            this.chkThuongTigerBac.CheckStateChanged += new System.EventHandler(this.checkedChangeLabel);
-            // 
-            // minusUpdownBudweiser
-            // 
-            this.minusUpdownBudweiser.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.minusUpdownBudweiser.IconChar = FontAwesome.Sharp.IconChar.Minus;
-            this.minusUpdownBudweiser.IconColor = System.Drawing.Color.Black;
-            this.minusUpdownBudweiser.IconSize = 16;
-            this.minusUpdownBudweiser.Location = new System.Drawing.Point(162, 167);
-            this.minusUpdownBudweiser.Name = "minusUpdownBudweiser";
-            this.minusUpdownBudweiser.Rotation = 0D;
-            this.minusUpdownBudweiser.Size = new System.Drawing.Size(31, 23);
-            this.minusUpdownBudweiser.TabIndex = 33;
-            this.minusUpdownBudweiser.UseVisualStyleBackColor = true;
-            this.minusUpdownBudweiser.Click += new System.EventHandler(this.minus_Click);
-            // 
-            // plusUpdownBudweiser
-            // 
-            this.plusUpdownBudweiser.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.plusUpdownBudweiser.IconChar = FontAwesome.Sharp.IconChar.Plus;
-            this.plusUpdownBudweiser.IconColor = System.Drawing.Color.Black;
-            this.plusUpdownBudweiser.IconSize = 16;
-            this.plusUpdownBudweiser.Location = new System.Drawing.Point(238, 165);
-            this.plusUpdownBudweiser.Name = "plusUpdownBudweiser";
-            this.plusUpdownBudweiser.Rotation = 0D;
-            this.plusUpdownBudweiser.Size = new System.Drawing.Size(31, 26);
-            this.plusUpdownBudweiser.TabIndex = 32;
-            this.plusUpdownBudweiser.UseVisualStyleBackColor = true;
-            this.plusUpdownBudweiser.Click += new System.EventHandler(this.plus_Click);
-            // 
-            // minusUpdownStrongbow
-            // 
-            this.minusUpdownStrongbow.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.minusUpdownStrongbow.IconChar = FontAwesome.Sharp.IconChar.Minus;
-            this.minusUpdownStrongbow.IconColor = System.Drawing.Color.Black;
-            this.minusUpdownStrongbow.IconSize = 16;
-            this.minusUpdownStrongbow.Location = new System.Drawing.Point(162, 142);
-            this.minusUpdownStrongbow.Name = "minusUpdownStrongbow";
-            this.minusUpdownStrongbow.Rotation = 0D;
-            this.minusUpdownStrongbow.Size = new System.Drawing.Size(31, 23);
-            this.minusUpdownStrongbow.TabIndex = 31;
-            this.minusUpdownStrongbow.UseVisualStyleBackColor = true;
-            this.minusUpdownStrongbow.Click += new System.EventHandler(this.minus_Click);
-            // 
-            // plusUpdownStrongbow
-            // 
-            this.plusUpdownStrongbow.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.plusUpdownStrongbow.IconChar = FontAwesome.Sharp.IconChar.Plus;
-            this.plusUpdownStrongbow.IconColor = System.Drawing.Color.Black;
-            this.plusUpdownStrongbow.IconSize = 16;
-            this.plusUpdownStrongbow.Location = new System.Drawing.Point(238, 140);
-            this.plusUpdownStrongbow.Name = "plusUpdownStrongbow";
-            this.plusUpdownStrongbow.Rotation = 0D;
-            this.plusUpdownStrongbow.Size = new System.Drawing.Size(31, 23);
-            this.plusUpdownStrongbow.TabIndex = 30;
-            this.plusUpdownStrongbow.UseVisualStyleBackColor = true;
-            this.plusUpdownStrongbow.Click += new System.EventHandler(this.plus_Click);
-            // 
-            // minusUpdownTigerBac
-            // 
-            this.minusUpdownTigerBac.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.minusUpdownTigerBac.IconChar = FontAwesome.Sharp.IconChar.Minus;
-            this.minusUpdownTigerBac.IconColor = System.Drawing.Color.Black;
-            this.minusUpdownTigerBac.IconSize = 16;
-            this.minusUpdownTigerBac.Location = new System.Drawing.Point(162, 118);
-            this.minusUpdownTigerBac.Name = "minusUpdownTigerBac";
-            this.minusUpdownTigerBac.Rotation = 0D;
-            this.minusUpdownTigerBac.Size = new System.Drawing.Size(31, 23);
-            this.minusUpdownTigerBac.TabIndex = 29;
-            this.minusUpdownTigerBac.UseVisualStyleBackColor = true;
-            this.minusUpdownTigerBac.Click += new System.EventHandler(this.minus_Click);
-            // 
-            // plusUpdownTigerBac
-            // 
-            this.plusUpdownTigerBac.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.plusUpdownTigerBac.IconChar = FontAwesome.Sharp.IconChar.Plus;
-            this.plusUpdownTigerBac.IconColor = System.Drawing.Color.Black;
-            this.plusUpdownTigerBac.IconSize = 16;
-            this.plusUpdownTigerBac.Location = new System.Drawing.Point(238, 116);
-            this.plusUpdownTigerBac.Name = "plusUpdownTigerBac";
-            this.plusUpdownTigerBac.Rotation = 0D;
-            this.plusUpdownTigerBac.Size = new System.Drawing.Size(31, 23);
-            this.plusUpdownTigerBac.TabIndex = 28;
-            this.plusUpdownTigerBac.UseVisualStyleBackColor = true;
-            this.plusUpdownTigerBac.Click += new System.EventHandler(this.plus_Click);
-            // 
-            // txtUpdownBudweiser
-            // 
-            this.txtUpdownBudweiser.Enabled = false;
-            this.txtUpdownBudweiser.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUpdownBudweiser.Location = new System.Drawing.Point(197, 165);
-            this.txtUpdownBudweiser.Margin = new System.Windows.Forms.Padding(2);
-            this.txtUpdownBudweiser.Multiline = true;
-            this.txtUpdownBudweiser.Name = "txtUpdownBudweiser";
-            this.txtUpdownBudweiser.Size = new System.Drawing.Size(36, 25);
-            this.txtUpdownBudweiser.TabIndex = 26;
-            this.txtUpdownBudweiser.Text = "0";
-            this.txtUpdownBudweiser.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtUpdownBudweiser.TextChanged += new System.EventHandler(this.tinhTien);
-            // 
-            // txtUpdownStrongbow
-            // 
-            this.txtUpdownStrongbow.Enabled = false;
-            this.txtUpdownStrongbow.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUpdownStrongbow.Location = new System.Drawing.Point(197, 142);
-            this.txtUpdownStrongbow.Margin = new System.Windows.Forms.Padding(2);
-            this.txtUpdownStrongbow.Multiline = true;
-            this.txtUpdownStrongbow.Name = "txtUpdownStrongbow";
-            this.txtUpdownStrongbow.Size = new System.Drawing.Size(36, 25);
-            this.txtUpdownStrongbow.TabIndex = 27;
-            this.txtUpdownStrongbow.Text = "0";
-            this.txtUpdownStrongbow.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtUpdownStrongbow.TextChanged += new System.EventHandler(this.tinhTien);
-            // 
-            // txtUpdownTigerBac
-            // 
-            this.txtUpdownTigerBac.Enabled = false;
-            this.txtUpdownTigerBac.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUpdownTigerBac.Location = new System.Drawing.Point(197, 118);
-            this.txtUpdownTigerBac.Margin = new System.Windows.Forms.Padding(2);
-            this.txtUpdownTigerBac.Multiline = true;
-            this.txtUpdownTigerBac.Name = "txtUpdownTigerBac";
-            this.txtUpdownTigerBac.Size = new System.Drawing.Size(36, 25);
-            this.txtUpdownTigerBac.TabIndex = 25;
-            this.txtUpdownTigerBac.Text = "0";
-            this.txtUpdownTigerBac.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtUpdownTigerBac.TextChanged += new System.EventHandler(this.tinhTien);
-            // 
-            // chkUpdownBudweiser
-            // 
-            this.chkUpdownBudweiser.AutoSize = true;
-            this.chkUpdownBudweiser.Font = new System.Drawing.Font("UTM Alexander", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkUpdownBudweiser.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.chkUpdownBudweiser.Location = new System.Drawing.Point(6, 164);
-            this.chkUpdownBudweiser.Margin = new System.Windows.Forms.Padding(2);
-            this.chkUpdownBudweiser.Name = "chkUpdownBudweiser";
-            this.chkUpdownBudweiser.Size = new System.Drawing.Size(85, 22);
-            this.chkUpdownBudweiser.TabIndex = 138;
-            this.chkUpdownBudweiser.Text = "Budweiser";
-            this.chkUpdownBudweiser.UseVisualStyleBackColor = true;
-            this.chkUpdownBudweiser.CheckedChanged += new System.EventHandler(this.checkedChangeLabel);
-            this.chkUpdownBudweiser.CheckStateChanged += new System.EventHandler(this.checkedChangeLabel);
-            // 
-            // chkUpdownStrongbow
-            // 
-            this.chkUpdownStrongbow.AutoSize = true;
-            this.chkUpdownStrongbow.Font = new System.Drawing.Font("UTM Alexander", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkUpdownStrongbow.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.chkUpdownStrongbow.Location = new System.Drawing.Point(6, 141);
-            this.chkUpdownStrongbow.Margin = new System.Windows.Forms.Padding(2);
-            this.chkUpdownStrongbow.Name = "chkUpdownStrongbow";
-            this.chkUpdownStrongbow.Size = new System.Drawing.Size(86, 22);
-            this.chkUpdownStrongbow.TabIndex = 139;
-            this.chkUpdownStrongbow.Text = "Strongbow";
-            this.chkUpdownStrongbow.UseVisualStyleBackColor = true;
-            this.chkUpdownStrongbow.CheckedChanged += new System.EventHandler(this.checkedChangeLabel);
-            this.chkUpdownStrongbow.CheckStateChanged += new System.EventHandler(this.checkedChangeLabel);
-            // 
-            // chkUpdownTigerBac
-            // 
-            this.chkUpdownTigerBac.AutoSize = true;
-            this.chkUpdownTigerBac.Font = new System.Drawing.Font("UTM Alexander", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkUpdownTigerBac.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.chkUpdownTigerBac.Location = new System.Drawing.Point(6, 117);
-            this.chkUpdownTigerBac.Margin = new System.Windows.Forms.Padding(2);
-            this.chkUpdownTigerBac.Name = "chkUpdownTigerBac";
-            this.chkUpdownTigerBac.Size = new System.Drawing.Size(79, 22);
-            this.chkUpdownTigerBac.TabIndex = 137;
-            this.chkUpdownTigerBac.Text = "Tiger Bạc";
-            this.chkUpdownTigerBac.UseVisualStyleBackColor = true;
-            this.chkUpdownTigerBac.CheckedChanged += new System.EventHandler(this.checkedChangeLabel);
-            this.chkUpdownTigerBac.CheckStateChanged += new System.EventHandler(this.checkedChangeLabel);
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("UTM Alexander", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label18.Location = new System.Drawing.Point(8, 294);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(65, 21);
-            this.label18.TabIndex = 149;
-            this.label18.Text = "CockTail";
-            // 
-            // minusMojito
-            // 
-            this.minusMojito.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.minusMojito.IconChar = FontAwesome.Sharp.IconChar.Minus;
-            this.minusMojito.IconColor = System.Drawing.Color.Black;
-            this.minusMojito.IconSize = 16;
-            this.minusMojito.Location = new System.Drawing.Point(107, 363);
-            this.minusMojito.Name = "minusMojito";
-            this.minusMojito.Rotation = 0D;
-            this.minusMojito.Size = new System.Drawing.Size(31, 23);
-            this.minusMojito.TabIndex = 148;
-            this.minusMojito.UseVisualStyleBackColor = true;
-            this.minusMojito.Click += new System.EventHandler(this.minus_Click);
-            // 
-            // plusMojito
-            // 
-            this.plusMojito.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.plusMojito.IconChar = FontAwesome.Sharp.IconChar.Plus;
-            this.plusMojito.IconColor = System.Drawing.Color.Black;
-            this.plusMojito.IconSize = 16;
-            this.plusMojito.Location = new System.Drawing.Point(179, 362);
-            this.plusMojito.Name = "plusMojito";
-            this.plusMojito.Rotation = 0D;
-            this.plusMojito.Size = new System.Drawing.Size(31, 24);
-            this.plusMojito.TabIndex = 147;
-            this.plusMojito.UseVisualStyleBackColor = true;
-            this.plusMojito.Click += new System.EventHandler(this.plus_Click);
-            // 
-            // txtMojito
-            // 
-            this.txtMojito.Enabled = false;
-            this.txtMojito.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMojito.Location = new System.Drawing.Point(140, 363);
-            this.txtMojito.Margin = new System.Windows.Forms.Padding(2);
-            this.txtMojito.Multiline = true;
-            this.txtMojito.Name = "txtMojito";
-            this.txtMojito.Size = new System.Drawing.Size(36, 23);
-            this.txtMojito.TabIndex = 146;
-            this.txtMojito.Text = "0";
-            this.txtMojito.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtMojito.TextChanged += new System.EventHandler(this.tinhTien);
-            // 
-            // chkMojito
-            // 
-            this.chkMojito.AutoSize = true;
-            this.chkMojito.Font = new System.Drawing.Font("UTM Alexander", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkMojito.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.chkMojito.Location = new System.Drawing.Point(10, 364);
-            this.chkMojito.Margin = new System.Windows.Forms.Padding(2);
-            this.chkMojito.Name = "chkMojito";
-            this.chkMojito.Size = new System.Drawing.Size(62, 22);
-            this.chkMojito.TabIndex = 145;
-            this.chkMojito.Text = "Mojito";
-            this.chkMojito.UseVisualStyleBackColor = true;
-            this.chkMojito.CheckedChanged += new System.EventHandler(this.checkedChangeLabel);
-            this.chkMojito.CheckStateChanged += new System.EventHandler(this.checkedChangeLabel);
-            // 
-            // minusDeepSea
-            // 
-            this.minusDeepSea.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.minusDeepSea.IconChar = FontAwesome.Sharp.IconChar.Minus;
-            this.minusDeepSea.IconColor = System.Drawing.Color.Black;
-            this.minusDeepSea.IconSize = 16;
-            this.minusDeepSea.Location = new System.Drawing.Point(107, 339);
-            this.minusDeepSea.Name = "minusDeepSea";
-            this.minusDeepSea.Rotation = 0D;
-            this.minusDeepSea.Size = new System.Drawing.Size(31, 23);
-            this.minusDeepSea.TabIndex = 144;
-            this.minusDeepSea.UseVisualStyleBackColor = true;
-            this.minusDeepSea.Click += new System.EventHandler(this.minus_Click);
-            // 
-            // plusDeepSea
-            // 
-            this.plusDeepSea.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.plusDeepSea.IconChar = FontAwesome.Sharp.IconChar.Plus;
-            this.plusDeepSea.IconColor = System.Drawing.Color.Black;
-            this.plusDeepSea.IconSize = 16;
-            this.plusDeepSea.Location = new System.Drawing.Point(179, 338);
-            this.plusDeepSea.Name = "plusDeepSea";
-            this.plusDeepSea.Rotation = 0D;
-            this.plusDeepSea.Size = new System.Drawing.Size(31, 24);
-            this.plusDeepSea.TabIndex = 143;
-            this.plusDeepSea.UseVisualStyleBackColor = true;
-            this.plusDeepSea.Click += new System.EventHandler(this.plus_Click);
-            // 
-            // txtDeepSea
-            // 
-            this.txtDeepSea.Enabled = false;
-            this.txtDeepSea.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDeepSea.Location = new System.Drawing.Point(141, 338);
-            this.txtDeepSea.Margin = new System.Windows.Forms.Padding(2);
-            this.txtDeepSea.Multiline = true;
-            this.txtDeepSea.Name = "txtDeepSea";
-            this.txtDeepSea.Size = new System.Drawing.Size(36, 23);
-            this.txtDeepSea.TabIndex = 142;
-            this.txtDeepSea.Text = "0";
-            this.txtDeepSea.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtDeepSea.TextChanged += new System.EventHandler(this.tinhTien);
-            // 
-            // chkDeepSea
-            // 
-            this.chkDeepSea.AutoSize = true;
-            this.chkDeepSea.Font = new System.Drawing.Font("UTM Alexander", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkDeepSea.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.chkDeepSea.Location = new System.Drawing.Point(9, 342);
-            this.chkDeepSea.Margin = new System.Windows.Forms.Padding(2);
-            this.chkDeepSea.Name = "chkDeepSea";
-            this.chkDeepSea.Size = new System.Drawing.Size(81, 22);
-            this.chkDeepSea.TabIndex = 141;
-            this.chkDeepSea.Text = "Deep Sea";
-            this.chkDeepSea.UseVisualStyleBackColor = true;
-            this.chkDeepSea.CheckedChanged += new System.EventHandler(this.checkedChangeLabel);
-            this.chkDeepSea.CheckStateChanged += new System.EventHandler(this.checkedChangeLabel);
-            // 
-            // minusMagarita
-            // 
-            this.minusMagarita.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.minusMagarita.IconChar = FontAwesome.Sharp.IconChar.Minus;
-            this.minusMagarita.IconColor = System.Drawing.Color.Black;
-            this.minusMagarita.IconSize = 16;
-            this.minusMagarita.Location = new System.Drawing.Point(107, 312);
-            this.minusMagarita.Name = "minusMagarita";
-            this.minusMagarita.Rotation = 0D;
-            this.minusMagarita.Size = new System.Drawing.Size(31, 23);
-            this.minusMagarita.TabIndex = 140;
-            this.minusMagarita.UseVisualStyleBackColor = true;
-            this.minusMagarita.Click += new System.EventHandler(this.minus_Click);
-            // 
-            // plusMagarita
-            // 
-            this.plusMagarita.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.plusMagarita.IconChar = FontAwesome.Sharp.IconChar.Plus;
-            this.plusMagarita.IconColor = System.Drawing.Color.Black;
-            this.plusMagarita.IconSize = 16;
-            this.plusMagarita.Location = new System.Drawing.Point(179, 312);
-            this.plusMagarita.Name = "plusMagarita";
-            this.plusMagarita.Rotation = 0D;
-            this.plusMagarita.Size = new System.Drawing.Size(31, 24);
-            this.plusMagarita.TabIndex = 139;
-            this.plusMagarita.UseVisualStyleBackColor = true;
-            this.plusMagarita.Click += new System.EventHandler(this.plus_Click);
-            // 
-            // txtMagarita
-            // 
-            this.txtMagarita.Enabled = false;
-            this.txtMagarita.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMagarita.Location = new System.Drawing.Point(141, 312);
-            this.txtMagarita.Margin = new System.Windows.Forms.Padding(2);
-            this.txtMagarita.Multiline = true;
-            this.txtMagarita.Name = "txtMagarita";
-            this.txtMagarita.Size = new System.Drawing.Size(36, 23);
-            this.txtMagarita.TabIndex = 138;
-            this.txtMagarita.Text = "0";
-            this.txtMagarita.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtMagarita.TextChanged += new System.EventHandler(this.tinhTien);
-            // 
-            // chkMagarita
-            // 
-            this.chkMagarita.AutoSize = true;
-            this.chkMagarita.Font = new System.Drawing.Font("UTM Alexander", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkMagarita.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.chkMagarita.Location = new System.Drawing.Point(9, 318);
-            this.chkMagarita.Margin = new System.Windows.Forms.Padding(2);
-            this.chkMagarita.Name = "chkMagarita";
-            this.chkMagarita.Size = new System.Drawing.Size(77, 22);
-            this.chkMagarita.TabIndex = 137;
-            this.chkMagarita.Text = "Magarita";
-            this.chkMagarita.UseVisualStyleBackColor = true;
-            this.chkMagarita.CheckedChanged += new System.EventHandler(this.checkedChangeLabel);
-            this.chkMagarita.CheckStateChanged += new System.EventHandler(this.checkedChangeLabel);
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("UTM Alexander", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label20.Location = new System.Drawing.Point(3, 96);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(116, 21);
-            this.label20.TabIndex = 140;
-            this.label20.Text = "Beer + Updown";
-            // 
-            // minusBanhTrang
-            // 
-            this.minusBanhTrang.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.minusBanhTrang.IconChar = FontAwesome.Sharp.IconChar.Minus;
-            this.minusBanhTrang.IconColor = System.Drawing.Color.Black;
-            this.minusBanhTrang.IconSize = 16;
-            this.minusBanhTrang.Location = new System.Drawing.Point(418, 140);
-            this.minusBanhTrang.Name = "minusBanhTrang";
-            this.minusBanhTrang.Rotation = 0D;
-            this.minusBanhTrang.Size = new System.Drawing.Size(31, 23);
-            this.minusBanhTrang.TabIndex = 161;
-            this.minusBanhTrang.UseVisualStyleBackColor = true;
-            this.minusBanhTrang.Click += new System.EventHandler(this.minus_Click);
-            // 
-            // plusBanhTrang
-            // 
-            this.plusBanhTrang.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.plusBanhTrang.IconChar = FontAwesome.Sharp.IconChar.Plus;
-            this.plusBanhTrang.IconColor = System.Drawing.Color.Black;
-            this.plusBanhTrang.IconSize = 16;
-            this.plusBanhTrang.Location = new System.Drawing.Point(491, 139);
-            this.plusBanhTrang.Name = "plusBanhTrang";
-            this.plusBanhTrang.Rotation = 0D;
-            this.plusBanhTrang.Size = new System.Drawing.Size(31, 24);
-            this.plusBanhTrang.TabIndex = 160;
-            this.plusBanhTrang.UseVisualStyleBackColor = true;
-            this.plusBanhTrang.Click += new System.EventHandler(this.plus_Click);
-            // 
-            // txtBanhTrang
-            // 
-            this.txtBanhTrang.Enabled = false;
-            this.txtBanhTrang.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBanhTrang.Location = new System.Drawing.Point(452, 140);
-            this.txtBanhTrang.Margin = new System.Windows.Forms.Padding(2);
-            this.txtBanhTrang.Multiline = true;
-            this.txtBanhTrang.Name = "txtBanhTrang";
-            this.txtBanhTrang.Size = new System.Drawing.Size(36, 23);
-            this.txtBanhTrang.TabIndex = 159;
-            this.txtBanhTrang.Text = "0";
-            this.txtBanhTrang.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtBanhTrang.TextChanged += new System.EventHandler(this.tinhTien);
-            // 
-            // chkBanhTrang
-            // 
-            this.chkBanhTrang.AutoSize = true;
-            this.chkBanhTrang.Font = new System.Drawing.Font("UTM Alexander", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkBanhTrang.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.chkBanhTrang.Location = new System.Drawing.Point(279, 143);
-            this.chkBanhTrang.Margin = new System.Windows.Forms.Padding(2);
-            this.chkBanhTrang.Name = "chkBanhTrang";
-            this.chkBanhTrang.Size = new System.Drawing.Size(91, 22);
-            this.chkBanhTrang.TabIndex = 158;
-            this.chkBanhTrang.Text = "Bánh Tráng";
-            this.chkBanhTrang.UseVisualStyleBackColor = true;
-            this.chkBanhTrang.CheckedChanged += new System.EventHandler(this.checkedChangeLabel);
-            this.chkBanhTrang.CheckStateChanged += new System.EventHandler(this.checkedChangeLabel);
-            // 
-            // minusDaHeo
-            // 
-            this.minusDaHeo.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.minusDaHeo.IconChar = FontAwesome.Sharp.IconChar.Minus;
-            this.minusDaHeo.IconColor = System.Drawing.Color.Black;
-            this.minusDaHeo.IconSize = 16;
-            this.minusDaHeo.Location = new System.Drawing.Point(418, 116);
-            this.minusDaHeo.Name = "minusDaHeo";
-            this.minusDaHeo.Rotation = 0D;
-            this.minusDaHeo.Size = new System.Drawing.Size(31, 23);
-            this.minusDaHeo.TabIndex = 157;
-            this.minusDaHeo.UseVisualStyleBackColor = true;
-            this.minusDaHeo.Click += new System.EventHandler(this.minus_Click);
-            // 
-            // plusDaHeo
-            // 
-            this.plusDaHeo.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.plusDaHeo.IconChar = FontAwesome.Sharp.IconChar.Plus;
-            this.plusDaHeo.IconColor = System.Drawing.Color.Black;
-            this.plusDaHeo.IconSize = 16;
-            this.plusDaHeo.Location = new System.Drawing.Point(491, 115);
-            this.plusDaHeo.Name = "plusDaHeo";
-            this.plusDaHeo.Rotation = 0D;
-            this.plusDaHeo.Size = new System.Drawing.Size(31, 24);
-            this.plusDaHeo.TabIndex = 156;
-            this.plusDaHeo.UseVisualStyleBackColor = true;
-            this.plusDaHeo.Click += new System.EventHandler(this.plus_Click);
-            // 
-            // txtDaHeo
-            // 
-            this.txtDaHeo.Enabled = false;
-            this.txtDaHeo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDaHeo.Location = new System.Drawing.Point(452, 115);
-            this.txtDaHeo.Margin = new System.Windows.Forms.Padding(2);
-            this.txtDaHeo.Multiline = true;
-            this.txtDaHeo.Name = "txtDaHeo";
-            this.txtDaHeo.Size = new System.Drawing.Size(36, 23);
-            this.txtDaHeo.TabIndex = 155;
-            this.txtDaHeo.Text = "0";
-            this.txtDaHeo.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtDaHeo.TextChanged += new System.EventHandler(this.tinhTien);
-            // 
-            // chkDaHeo
-            // 
-            this.chkDaHeo.AutoSize = true;
-            this.chkDaHeo.Font = new System.Drawing.Font("UTM Alexander", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkDaHeo.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.chkDaHeo.Location = new System.Drawing.Point(279, 119);
-            this.chkDaHeo.Margin = new System.Windows.Forms.Padding(2);
-            this.chkDaHeo.Name = "chkDaHeo";
-            this.chkDaHeo.Size = new System.Drawing.Size(69, 22);
-            this.chkDaHeo.TabIndex = 154;
-            this.chkDaHeo.Text = "Da Heo";
-            this.chkDaHeo.UseVisualStyleBackColor = true;
-            this.chkDaHeo.CheckedChanged += new System.EventHandler(this.checkedChangeLabel);
-            this.chkDaHeo.CheckStateChanged += new System.EventHandler(this.checkedChangeLabel);
-            // 
-            // minusComChayKhoGa
-            // 
-            this.minusComChayKhoGa.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.minusComChayKhoGa.IconChar = FontAwesome.Sharp.IconChar.Minus;
-            this.minusComChayKhoGa.IconColor = System.Drawing.Color.Black;
-            this.minusComChayKhoGa.IconSize = 16;
-            this.minusComChayKhoGa.Location = new System.Drawing.Point(419, 72);
-            this.minusComChayKhoGa.Name = "minusComChayKhoGa";
-            this.minusComChayKhoGa.Rotation = 0D;
-            this.minusComChayKhoGa.Size = new System.Drawing.Size(31, 23);
-            this.minusComChayKhoGa.TabIndex = 153;
-            this.minusComChayKhoGa.UseVisualStyleBackColor = true;
-            this.minusComChayKhoGa.Click += new System.EventHandler(this.minus_Click);
-            // 
-            // plusComChayKhoGa
-            // 
-            this.plusComChayKhoGa.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.plusComChayKhoGa.IconChar = FontAwesome.Sharp.IconChar.Plus;
-            this.plusComChayKhoGa.IconColor = System.Drawing.Color.Black;
-            this.plusComChayKhoGa.IconSize = 16;
-            this.plusComChayKhoGa.Location = new System.Drawing.Point(491, 71);
-            this.plusComChayKhoGa.Name = "plusComChayKhoGa";
-            this.plusComChayKhoGa.Rotation = 0D;
-            this.plusComChayKhoGa.Size = new System.Drawing.Size(31, 24);
-            this.plusComChayKhoGa.TabIndex = 152;
-            this.plusComChayKhoGa.UseVisualStyleBackColor = true;
-            this.plusComChayKhoGa.Click += new System.EventHandler(this.plus_Click);
-            // 
-            // txtComChayKhoGa
-            // 
-            this.txtComChayKhoGa.Enabled = false;
-            this.txtComChayKhoGa.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtComChayKhoGa.Location = new System.Drawing.Point(453, 71);
-            this.txtComChayKhoGa.Margin = new System.Windows.Forms.Padding(2);
-            this.txtComChayKhoGa.Multiline = true;
-            this.txtComChayKhoGa.Name = "txtComChayKhoGa";
-            this.txtComChayKhoGa.Size = new System.Drawing.Size(36, 23);
-            this.txtComChayKhoGa.TabIndex = 151;
-            this.txtComChayKhoGa.Text = "0";
-            this.txtComChayKhoGa.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtComChayKhoGa.TextChanged += new System.EventHandler(this.tinhTien);
-            // 
-            // chkComChayKhoGa
-            // 
-            this.chkComChayKhoGa.AutoSize = true;
-            this.chkComChayKhoGa.Font = new System.Drawing.Font("UTM Alexander", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkComChayKhoGa.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.chkComChayKhoGa.Location = new System.Drawing.Point(279, 75);
-            this.chkComChayKhoGa.Margin = new System.Windows.Forms.Padding(2);
-            this.chkComChayKhoGa.Name = "chkComChayKhoGa";
-            this.chkComChayKhoGa.Size = new System.Drawing.Size(126, 22);
-            this.chkComChayKhoGa.TabIndex = 150;
-            this.chkComChayKhoGa.Text = "Cơm cháy khô gà";
-            this.chkComChayKhoGa.UseVisualStyleBackColor = true;
-            this.chkComChayKhoGa.CheckedChanged += new System.EventHandler(this.checkedChangeLabel);
-            this.chkComChayKhoGa.CheckStateChanged += new System.EventHandler(this.checkedChangeLabel);
-            // 
-            // minusKhoGaLaChanh
-            // 
-            this.minusKhoGaLaChanh.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.minusKhoGaLaChanh.IconChar = FontAwesome.Sharp.IconChar.Minus;
-            this.minusKhoGaLaChanh.IconColor = System.Drawing.Color.Black;
-            this.minusKhoGaLaChanh.IconSize = 16;
-            this.minusKhoGaLaChanh.Location = new System.Drawing.Point(419, 48);
-            this.minusKhoGaLaChanh.Name = "minusKhoGaLaChanh";
-            this.minusKhoGaLaChanh.Rotation = 0D;
-            this.minusKhoGaLaChanh.Size = new System.Drawing.Size(31, 23);
-            this.minusKhoGaLaChanh.TabIndex = 149;
-            this.minusKhoGaLaChanh.UseVisualStyleBackColor = true;
-            this.minusKhoGaLaChanh.Click += new System.EventHandler(this.minus_Click);
-            // 
-            // plusKhoGaLaChanh
-            // 
-            this.plusKhoGaLaChanh.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.plusKhoGaLaChanh.IconChar = FontAwesome.Sharp.IconChar.Plus;
-            this.plusKhoGaLaChanh.IconColor = System.Drawing.Color.Black;
-            this.plusKhoGaLaChanh.IconSize = 16;
-            this.plusKhoGaLaChanh.Location = new System.Drawing.Point(491, 47);
-            this.plusKhoGaLaChanh.Name = "plusKhoGaLaChanh";
-            this.plusKhoGaLaChanh.Rotation = 0D;
-            this.plusKhoGaLaChanh.Size = new System.Drawing.Size(31, 24);
-            this.plusKhoGaLaChanh.TabIndex = 148;
-            this.plusKhoGaLaChanh.UseVisualStyleBackColor = true;
-            this.plusKhoGaLaChanh.Click += new System.EventHandler(this.plus_Click);
-            // 
-            // txtKhoGaLaChanh
-            // 
-            this.txtKhoGaLaChanh.Enabled = false;
-            this.txtKhoGaLaChanh.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtKhoGaLaChanh.Location = new System.Drawing.Point(453, 47);
-            this.txtKhoGaLaChanh.Margin = new System.Windows.Forms.Padding(2);
-            this.txtKhoGaLaChanh.Multiline = true;
-            this.txtKhoGaLaChanh.Name = "txtKhoGaLaChanh";
-            this.txtKhoGaLaChanh.Size = new System.Drawing.Size(36, 23);
-            this.txtKhoGaLaChanh.TabIndex = 147;
-            this.txtKhoGaLaChanh.Text = "0";
-            this.txtKhoGaLaChanh.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtKhoGaLaChanh.TextChanged += new System.EventHandler(this.tinhTien);
-            // 
-            // chkKhoGaLaChanh
-            // 
-            this.chkKhoGaLaChanh.AutoSize = true;
-            this.chkKhoGaLaChanh.Font = new System.Drawing.Font("UTM Alexander", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkKhoGaLaChanh.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.chkKhoGaLaChanh.Location = new System.Drawing.Point(279, 51);
-            this.chkKhoGaLaChanh.Margin = new System.Windows.Forms.Padding(2);
-            this.chkKhoGaLaChanh.Name = "chkKhoGaLaChanh";
-            this.chkKhoGaLaChanh.Size = new System.Drawing.Size(119, 22);
-            this.chkKhoGaLaChanh.TabIndex = 146;
-            this.chkKhoGaLaChanh.Text = "Khô gà lá chanh";
-            this.chkKhoGaLaChanh.UseVisualStyleBackColor = true;
-            this.chkKhoGaLaChanh.CheckedChanged += new System.EventHandler(this.checkedChangeLabel);
-            this.chkKhoGaLaChanh.CheckStateChanged += new System.EventHandler(this.checkedChangeLabel);
-            // 
-            // minusDauPhongRang
-            // 
-            this.minusDauPhongRang.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.minusDauPhongRang.IconChar = FontAwesome.Sharp.IconChar.Minus;
-            this.minusDauPhongRang.IconColor = System.Drawing.Color.Black;
-            this.minusDauPhongRang.IconSize = 16;
-            this.minusDauPhongRang.Location = new System.Drawing.Point(419, 21);
-            this.minusDauPhongRang.Name = "minusDauPhongRang";
-            this.minusDauPhongRang.Rotation = 0D;
-            this.minusDauPhongRang.Size = new System.Drawing.Size(31, 23);
-            this.minusDauPhongRang.TabIndex = 145;
-            this.minusDauPhongRang.UseVisualStyleBackColor = true;
-            this.minusDauPhongRang.Click += new System.EventHandler(this.minus_Click);
-            // 
-            // plusDauPhongRang
-            // 
-            this.plusDauPhongRang.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.plusDauPhongRang.IconChar = FontAwesome.Sharp.IconChar.Plus;
-            this.plusDauPhongRang.IconColor = System.Drawing.Color.Black;
-            this.plusDauPhongRang.IconSize = 16;
-            this.plusDauPhongRang.Location = new System.Drawing.Point(491, 21);
-            this.plusDauPhongRang.Name = "plusDauPhongRang";
-            this.plusDauPhongRang.Rotation = 0D;
-            this.plusDauPhongRang.Size = new System.Drawing.Size(31, 24);
-            this.plusDauPhongRang.TabIndex = 144;
-            this.plusDauPhongRang.UseVisualStyleBackColor = true;
-            this.plusDauPhongRang.Click += new System.EventHandler(this.plus_Click);
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("UTM Alexander", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label17.Location = new System.Drawing.Point(280, 2);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(79, 21);
-            this.label17.TabIndex = 143;
-            this.label17.Text = "Đồ Ăn Vặt";
-            // 
-            // txtDauPhongRang
-            // 
-            this.txtDauPhongRang.Enabled = false;
-            this.txtDauPhongRang.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDauPhongRang.Location = new System.Drawing.Point(453, 21);
-            this.txtDauPhongRang.Margin = new System.Windows.Forms.Padding(2);
-            this.txtDauPhongRang.Multiline = true;
-            this.txtDauPhongRang.Name = "txtDauPhongRang";
-            this.txtDauPhongRang.Size = new System.Drawing.Size(36, 23);
-            this.txtDauPhongRang.TabIndex = 142;
-            this.txtDauPhongRang.Text = "0";
-            this.txtDauPhongRang.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtDauPhongRang.TextChanged += new System.EventHandler(this.tinhTien);
-            // 
-            // chkDauPhongRang
-            // 
-            this.chkDauPhongRang.AutoSize = true;
-            this.chkDauPhongRang.Font = new System.Drawing.Font("UTM Alexander", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkDauPhongRang.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.chkDauPhongRang.Location = new System.Drawing.Point(279, 25);
-            this.chkDauPhongRang.Margin = new System.Windows.Forms.Padding(2);
-            this.chkDauPhongRang.Name = "chkDauPhongRang";
-            this.chkDauPhongRang.Size = new System.Drawing.Size(117, 22);
-            this.chkDauPhongRang.TabIndex = 141;
-            this.chkDauPhongRang.Text = "Đậu phộng rang";
-            this.chkDauPhongRang.UseVisualStyleBackColor = true;
-            this.chkDauPhongRang.CheckedChanged += new System.EventHandler(this.checkedChangeLabel);
-            this.chkDauPhongRang.CheckStateChanged += new System.EventHandler(this.checkedChangeLabel);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::CafeSweetHomie.Properties.Resources.logo;
-            this.pictureBox1.Location = new System.Drawing.Point(1, 7);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(245, 283);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 150;
-            this.pictureBox1.TabStop = false;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -5285,16 +5285,16 @@
             this.panel3.PerformLayout();
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
             this.panel6.ResumeLayout(false);
+            this.panel13.ResumeLayout(false);
+            this.panel13.PerformLayout();
             this.panel12.ResumeLayout(false);
             this.panel12.PerformLayout();
             this.panel11.ResumeLayout(false);
             this.panel11.PerformLayout();
-            this.panel13.ResumeLayout(false);
-            this.panel13.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }

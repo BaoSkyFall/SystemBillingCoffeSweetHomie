@@ -81,7 +81,7 @@ namespace CafeSweetHomie
                         //Sinh To
                         camchanhday = 30000; sinhtodau = 30000; chanhtuyet = 30000; sinhtobo = 35000; sinhtoxoai = 30000; dauxoaicam = 30000;
                         //Nuoc Ep
-                        nuocepcam= 28000;nuocepchanh= 25000; chanhoi= 28000; chanhdao = 28000; chanhmatong = 30000; nuocepchanhday = 28000;
+                        nuocepcam= 30000;nuocepchanh= 25000; chanhoi= 30000; chanhdao = 30000; chanhmatong = 30000; nuocepchanhday = 30000;
                         //Sua Chua
                         suachuadaxay = 30000; suachuavietquat=30000; suachuadao= 30000; suachuadau= 30000; suachuachanhday = 30000;
                         //Soda
@@ -4005,6 +4005,26 @@ namespace CafeSweetHomie
 
             //txtDiscount
             txtDiscount.Text = "0";
+
+            chkThuongBudweiser.Checked = false;
+            chkThuongStrongbow.Checked = false;
+            chkThuongTigerBac.Checked = false;
+            chkUpdownBudweiser.Checked = false;
+            chkUpdownStrongbow.Checked = false;
+            chkUpdownTigerBac.Checked = false;
+
+            chkDauPhongRang.Checked = false;
+            chkBanhTrang.Checked = false;
+            chkKhoGaLaChanh.Checked = false;
+            chkComChayKhoGa.Checked = false;
+            chkDaHeo.Checked = false;
+            chkBanhTrang.Checked = false;
+
+
+            chkMojito.Checked = false;
+            chkMagarita.Checked = false;
+            chkDeepSea.Checked = false;
+
 
 
         }
