@@ -92,6 +92,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="coffee_shop.ico" />
+    <None Include="Resources\333841621_1135956280402042_551697977001533494_n.jpg" />
     <None Include="Resources\logo1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
