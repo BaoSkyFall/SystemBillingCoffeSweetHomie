@@ -1101,7 +1101,7 @@ namespace CafeSweetHomie
                 }
 
             }
-            else if (s == "DenDamSoMiCutout")
+            else if (s.Contains("DenDamSoMiCutout"))
             {
                 if (Int32.Parse(txtDenDamSoMiCutout.Text) > 1)
                 {
@@ -1119,7 +1119,7 @@ namespace CafeSweetHomie
 
 
             }
-            else if (s == "TrangDamSoMiCutout")
+            else if (s.Contains("TrangDamSoMiCutout"))
             {
                 if (Int32.Parse(txtTrangDamSoMiCutout.Text) > 1)
                 {
@@ -1134,7 +1134,7 @@ namespace CafeSweetHomie
                 }
 
             }
-            else if (s == "AoBlazerTaBauDen")
+            else if (s.Contains("AoBlazerTaBauDen"))
             {
                 if (Int32.Parse(txtAoBlazerTaBauDen.Text) > 1)
                 {
@@ -1149,7 +1149,7 @@ namespace CafeSweetHomie
                 }
 
             }
-            else if (s == "DamSuongLongVu")
+            else if (s.Contains("DamSuongLongVu"))
             {
                 if (Int32.Parse(txtDamSuongLongVu.Text) > 1)
                 {
